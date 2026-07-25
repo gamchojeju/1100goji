@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+<title>감초식당 신제주점 | 제주 로컬 국밥 맛집</title>
+
+<meta name="description" content="제주공항 근처 30년 전통 감초식당 신제주점. 제주 로컬 감성과 따뜻한 국밥 한 그릇의 깊은 맛을 경험해보세요." />
+<meta name="keywords" content="감초식당, 제주맛집, 제주공항맛집, 제주국밥, 제주순대국밥, 신제주맛집, 제주로컬맛집" />
+<meta name="robots" content="index, follow" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="감초식당 신제주점" />
+<meta property="og:description" content="오랜 시간 변하지 않은 제주 로컬 국밥 맛집 감초식당" />
+<meta property="og:image" content="main-hero.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700&family=Pretendard:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--bg:#0f0f0f;
+--card:#171717;
+--text:#f5f5f5;
+--sub:#bdbdbd;
+--gold:#d6b98a;
+--line:rgba(255,255,255,0.06);
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+-webkit-text-size-adjust:100%;
+}
+
+body{
+font-family:'Pretendard',sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.8;
+overflow-x:hidden;
+word-break:keep-all;
+}
+
+img{
+width:100%;
+display:block;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+.container{
+width:min(1180px,92%);
+margin:auto;
+}
+
+/* HEADER */
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:999;
+background:rgba(15,15,15,0.82);
+backdrop-filter:blur(14px);
+-webkit-backdrop-filter:blur(14px);
+border-bottom:1px solid rgba(255,255,255,0.05);
+transition:0.35s;
+}
+
+header.scrolled{
+background:rgba(0,0,0,0.96);
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px 0;
+gap:20px;
+}
+
+.logo{
+font-family:'Noto Serif KR',serif;
+font-size:24px;
+font-weight:700;
+letter-spacing:1px;
+}
+
+.menu{
+display:flex;
+gap:24px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.menu a{
+font-size:13px;
+font-weight:600;
+letter-spacing:1px;
+opacity:0.88;
+position:relative;
+transition:0.3s;
+}
+
+.menu a::after{
+content:'';
+position:absolute;
+left:0;
+bottom:-6px;
+width:0;
+height:1px;
+background:var(--gold);
+transition:0.3s;
+}
+
+.menu a:hover::after{
+width:100%;
+}
+
+/* HERO */
+
+.hero{
+position:relative;
+height:100svh;
+min-height:820px;
+overflow:hidden;
+}
+
+.hero img{
+height:100%;
+object-fit:cover;
+filter:brightness(0.34);
+transform:scale(1.03);
+animation:heroZoom 12s ease-in-out infinite alternate;
+}
+
+@keyframes heroZoom{
+from{transform:scale(1.03);}
+to{transform:scale(1.09);}
+}
+
+.hero-overlay{
+position:absolute;
+inset:0;
+background:
+linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,0.82));
+}
+
+.hero-text{
+position:absolute;
+top:54%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+width:min(92%,980px);
+z-index:2;
+}
+
+.hero-sub{
+font-size:13px;
+letter-spacing:4px;
+margin-bottom:22px;
+color:var(--gold);
+}
+
+.hero-title{
+font-family:'Noto Serif KR',serif;
+font-size:clamp(48px,7vw,92px);
+line-height:1.32;
+margin-bottom:26px;
+font-weight:600;
+}
+
+.hero-desc{
+font-size:18px;
+color:rgba(255,255,255,0.84);
+max-width:780px;
+margin:auto;
+}
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:16px;
+margin-top:44px;
+flex-wrap:wrap;
+}
+
+.hero-btn{
+padding:16px 30px;
+border-radius:999px;
+font-size:14px;
+font-weight:700;
+transition:0.35s;
+}
+
+.hero-btn.primary{
+background:var(--gold);
+color:#111;
+}
+
+.hero-btn.secondary{
+border:1px solid rgba(255,255,255,0.15);
+background:rgba(255,255,255,0.05);
+}
+
+.hero-btn:hover{
+transform:translateY(-4px);
+}
+
+/* SECTION */
+
+section{
+padding:120px 0;
+}
+
+.section-label{
+font-size:13px;
+letter-spacing:3px;
+color:var(--gold);
+margin-bottom:18px;
+font-weight:600;
+}
+
+.section-title{
+font-family:'Noto Serif KR',serif;
+font-size:clamp(34px,4vw,54px);
+line-height:1.5;
+margin-bottom:28px;
+font-weight:600;
+}
+
+.section-desc{
+font-size:18px;
+color:var(--sub);
+max-width:760px;
+}
+
+/* STORY */
+
+.story-wrap{
+display:grid;
+grid-template-columns:1.1fr 1fr;
+gap:70px;
+align-items:center;
+}
+
+.story-image{
+overflow:hidden;
+border-radius:32px;
+}
+
+.story-image img{
+height:720px;
+object-fit:cover;
+transition:0.5s;
+}
+
+.story-image:hover img{
+transform:scale(1.05);
+}
+
+.story-card{
+background:var(--card);
+padding:52px;
+border-radius:32px;
+border:1px solid var(--line);
+}
+
+.story-text{
+font-size:17px;
+color:#d0d0d0;
+margin-bottom:34px;
+}
+
+.story-link{
+display:inline-flex;
+align-items:center;
+gap:10px;
+color:var(--gold);
+font-weight:600;
+}
+
+/* MENU PREVIEW */
+
+.menu-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:28px;
+margin-top:60px;
+}
+
+.menu-card{
+background:var(--card);
+border-radius:30px;
+overflow:hidden;
+border:1px solid var(--line);
+transition:0.4s;
+}
+
+.menu-card:hover{
+transform:translateY(-10px);
+}
+
+.menu-thumb{
+overflow:hidden;
+}
+
+.menu-thumb img{
+height:280px;
+object-fit:cover;
+transition:0.5s;
+}
+
+.menu-card:hover .menu-thumb img{
+transform:scale(1.06);
+}
+
+.menu-content{
+padding:30px;
+}
+
+.menu-badge{
+display:inline-block;
+padding:8px 14px;
+border-radius:999px;
+background:#2a2116;
+color:var(--gold);
+font-size:11px;
+margin-bottom:18px;
+}
+
+.menu-title{
+font-family:'Noto Serif KR',serif;
+font-size:28px;
+margin-bottom:12px;
+}
+
+.menu-text{
+font-size:15px;
+color:#bdbdbd;
+margin-bottom:20px;
+}
+
+.menu-price{
+font-size:18px;
+font-weight:700;
+color:var(--gold);
+}
+
+/* MEDIA */
+
+.media-section{
+background:#141414;
+}
+
+.media-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:26px;
+margin-top:60px;
+}
+
+.media-card{
+background:#1a1a1a;
+padding:40px 34px;
+border-radius:28px;
+border:1px solid var(--line);
+transition:0.35s;
+}
+
+.media-card:hover{
+transform:translateY(-8px);
+}
+
+.media-icon{
+font-size:34px;
+margin-bottom:22px;
+}
+
+.media-title{
+font-family:'Noto Serif KR',serif;
+font-size:28px;
+margin-bottom:16px;
+}
+
+.media-text{
+color:#bdbdbd;
+font-size:15px;
+}
+
+/* REVIEW */
+
+.review-wrap{
+margin-top:60px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:26px;
+}
+
+.review-card{
+background:var(--card);
+padding:36px;
+border-radius:28px;
+border:1px solid var(--line);
+}
+
+.review-stars{
+color:#f5c451;
+font-size:18px;
+margin-bottom:20px;
+}
+
+.review-text{
+color:#d6d6d6;
+margin-bottom:24px;
+font-size:15px;
+}
+
+.review-name{
+font-weight:600;
+color:var(--gold);
+}
+
+/* GALLERY */
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:18px;
+margin-top:60px;
+}
+
+.gallery-grid img{
+height:260px;
+object-fit:cover;
+border-radius:24px;
+transition:0.4s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.03);
+}
+
+/* CTA */
+
+.cta{
+text-align:center;
+}
+
+.cta-box{
+background:linear-gradient(145deg,#181818,#101010);
+padding:80px 40px;
+border-radius:36px;
+border:1px solid var(--line);
+}
+
+.cta-title{
+font-family:'Noto Serif KR',serif;
+font-size:46px;
+margin-bottom:20px;
+}
+
+.cta-text{
+font-size:17px;
+color:#bdbdbd;
+margin-bottom:36px;
+}
+
+.cta-buttons{
+display:flex;
+justify-content:center;
+gap:18px;
+flex-wrap:wrap;
+}
+
+.cta-btn{
+padding:16px 30px;
+border-radius:999px;
+font-weight:700;
+transition:0.35s;
+}
+
+.cta-btn.gold{
+background:var(--gold);
+color:#111;
+}
+
+.cta-btn.dark{
+background:#1f1f1f;
+border:1px solid rgba(255,255,255,0.08);
+}
+
+.cta-btn:hover{
+transform:translateY(-4px);
+}
+
+/* FOOTER */
+
+footer{
+background:#090909;
+padding:70px 0;
+margin-top:120px;
+border-top:1px solid rgba(255,255,255,0.05);
+}
+
+.footer-inner{
+display:flex;
+justify-content:space-between;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.footer-logo{
+font-family:'Noto Serif KR',serif;
+font-size:30px;
+margin-bottom:12px;
+}
+
+.footer-info{
+font-size:15px;
+line-height:2;
+color:#bdbdbd;
+}
+
+/* FLOAT */
+
+.floating-call{
+position:fixed;
+right:20px;
+bottom:20px;
+width:68px;
+height:68px;
+border-radius:50%;
+background:var(--gold);
+color:#111;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+z-index:1000;
+box-shadow:0 20px 40px rgba(0,0,0,0.35);
+transition:0.35s;
+}
+
+.floating-call:hover{
+transform:translateY(-5px);
+}
+
+/* TABLET */
+
+@media(max-width:1024px){
+
+.story-wrap{
+grid-template-columns:1fr;
+}
+
+.story-image img{
+height:520px;
+}
+
+.menu-grid,
+.media-grid,
+.review-wrap{
+grid-template-columns:1fr;
+}
+
+.gallery-grid{
+grid-template-columns:1fr 1fr;
+}
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.nav{
+flex-direction:column;
+gap:14px;
+padding:14px 0;
+}
+
+.menu{
+gap:14px;
+}
+
+.menu a{
+font-size:11px;
+}
+
+.hero{
+min-height:700px;
+}
+
+.hero-title{
+font-size:44px;
+}
+
+.hero-desc{
+font-size:15px;
+line-height:1.8;
+}
+
+.hero-btn{
+width:100%;
+max-width:260px;
+}
+
+section{
+padding:90px 0;
+}
+
+.section-desc{
+font-size:16px;
+}
+
+.story-card{
+padding:34px 28px;
+}
+
+.story-image img{
+height:360px;
+}
+
+.menu-thumb img{
+height:240px;
+}
+
+.gallery-grid{
+grid-template-columns:1fr;
+}
+
+.gallery-grid img{
+height:240px;
+}
+
+.cta-title{
+font-size:34px;
+}
+
+.footer-inner{
+flex-direction:column;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header id="header">
+
+<div class="container nav">
+
+<div class="logo">감초식당</div>
+
+<nav class="menu">
+<a href="index.html">HOME</a>
+<a href="menu.html">MENU</a>
+<a href="story.html">STORY</a>
+<a href="broadcast.html">MEDIA</a>
+<a href="review.html">REVIEW</a>
+<a href="location.html">LOCATION</a>
+<a href="instagram.html">INSTAGRAM</a>
+</nav>
+
+</div>
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<img src="main-hero.jpg" alt="감초식당 메인 비주얼">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-text">
+
+<div class="hero-sub">
+GAMCHO RESTAURANT
+</div>
+
+<h1 class="hero-title">
+제주의 깊은 맛을 담은<br>
+따뜻한 한 그릇
+</h1>
+
+<p class="hero-desc">
+1994년부터 이어온 감초식당 신제주점.
+오랜 시간 변하지 않은 정성과 제주 로컬의 깊은 맛을 전합니다.
+</p>
+
+<div class="hero-buttons">
+
+<a href="menu.html" class="hero-btn primary">
+메뉴 보기
+</a>
+
+<a href="location.html" class="hero-btn secondary">
+매장 위치
+</a>
+
+</div>
+
+</div>
+</section>
+
+<!-- STORY -->
+
+<section>
+
+<div class="container story-wrap">
+
+<div class="story-image">
+<img src="story-home.jpg" alt="감초식당 스토리">
+</div>
+
+<div class="story-card">
+
+<div class="section-label">OUR STORY</div>
+
+<h2 class="section-title">
+30년 넘게 지켜온<br>
+감초식당의 마음
+</h2>
+
+<p class="story-text">
+화려함보다 오래 기억에 남는 따뜻한 맛.
+감초식당은 오랜 시간 한결같은 방식으로
+한 그릇의 정성을 준비하고 있습니다.
+</p>
+
+<a href="story.html" class="story-link">
+스토리 자세히 보기 →
+</a>
+
+</div>
+
+</div>
+</section>
+
+<!-- BEST MENU -->
+
+<section>
+
+<div class="container">
+
+<div class="section-label">BEST MENU</div>
+
+<h2 class="section-title">
+감초식당 대표 메뉴
+</h2>
+
+<p class="section-desc">
+많은 분들이 사랑해주시는 감초식당의 대표 메뉴를 소개합니다.
+</p>
+
+<div class="menu-grid">
+
+<div class="menu-card">
+
+<div class="menu-thumb">
+<img src="menu1.jpg" alt="감초순대국밥">
+</div>
+
+<div class="menu-content">
+
+<div class="menu-badge">
+BEST
+</div>
+
+<h3 class="menu-title">
+감초순대국밥
+</h3>
+
+<p class="menu-text">
+30년간 이어진 변함없는 어머님의 그 맛
+</p>
+
+<div class="menu-price">
+9,000원
+</div>
+
+</div>
+</div>
+
+<div class="menu-card">
+
+<div class="menu-thumb">
+<img src="menu10.jpg" alt="순대내장전골">
+</div>
+
+<div class="menu-content">
+
+<div class="menu-badge">
+POPULAR
+</div>
+
+<h3 class="menu-title">
+순대내장전골
+</h3>
+
+<p class="menu-text">
+내장과 야채, 수제순대의 푸짐한 전골
+</p>
+
+<div class="menu-price">
+35,000원
+</div>
+
+</div>
+</div>
+
+<div class="menu-card">
+
+<div class="menu-thumb">
+<img src="menu12.jpg" alt="닭볶음탕">
+</div>
+
+<div class="menu-content">
+
+<div class="menu-badge">
+SIGNATURE
+</div>
+
+<h3 class="menu-title">
+닭볶음탕
+</h3>
+
+<p class="menu-text">
+감초식당 인기 요리 메뉴
+</p>
+
+<div class="menu-price">
+35,000원
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- MEDIA -->
+
+<section class="media-section">
+
+<div class="container">
+
+<div class="section-label">MEDIA</div>
+
+<h2 class="section-title">
+방송과 미디어가 주목한 맛
+</h2>
+
+<p class="section-desc">
+tvN 놀라운토요일, 안녕하세요 거인인데요 등 다양한 콘텐츠에서 소개되었습니다.
+</p>
+
+<div class="media-grid">
+
+<div class="media-card">
+
+<div class="media-icon">
+📺
+</div>
+
+<h3 class="media-title">
+TV 방송 출연
+</h3>
+
+<p class="media-text">
+놀라운토요일 등 다양한 방송 프로그램 소개
+</p>
+
+</div>
+
+<div class="media-card">
+
+<div class="media-icon">
+🎥
+</div>
+
+<h3 class="media-title">
+유튜브 콘텐츠
+</h3>
+
+<p class="media-text">
+제주 로컬 맛집 콘텐츠 다수 출연
+</p>
+
+</div>
+
+<div class="media-card">
+
+<div class="media-icon">
+📍
+</div>
+
+<h3 class="media-title">
+제주 로컬 맛집
+</h3>
+
+<p class="media-text">
+제주공항 근처 오래된 로컬 맛집
+</p>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- REVIEW -->
+
+<section>
+
+<div class="container">
+
+<div class="section-label">REVIEWS</div>
+
+<h2 class="section-title">
+많은 분들이 기억하는 맛
+</h2>
+
+<div class="review-wrap">
+
+<div class="review-card">
+
+<div class="review-stars">
+★★★★★
+</div>
+
+<p class="review-text">
+제주 여행 마지막날 먹었던 국밥인데 아직도 기억나요.
+국물이 정말 깊고 따뜻했어요.
+</p>
+
+<div class="review-name">
+네이버 리뷰
+</div>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-stars">
+★★★★★
+</div>
+
+<p class="review-text">
+현지인 느낌 제대로 나는 맛집.
+제주 오면 꼭 다시 들리고 싶은 곳이에요.
+</p>
+
+<div class="review-name">
+방문 고객 후기
+</div>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-stars">
+★★★★★
+</div>
+
+<p class="review-text">
+순대국밥이 정말 깔끔하고 맛있어요.
+늦은 시간까지 운영해서 더 좋았습니다.
+</p>
+
+<div class="review-name">
+Google Review
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- GALLERY -->
+
+<section>
+
+<div class="container">
+
+<div class="section-label">JEJU MOOD</div>
+
+<h2 class="section-title">
+감초식당의 분위기
+</h2>
+
+<div class="gallery-grid">
+
+<img src="gallery1.jpg" alt="감초식당 음식">
+<img src="gallery2.jpg" alt="감초식당 제주 감성">
+<img src="gallery3.jpg" alt="감초식당 매장">
+<img src="gallery4.jpg" alt="감초식당 국밥">
+
+</div>
+
+</div>
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<div class="container">
+
+<div class="cta-box">
+
+<h2 class="cta-title">
+제주의 깊은 맛을 경험해보세요
+</h2>
+
+<p class="cta-text">
+오랜 시간 변하지 않은 감초식당의 따뜻한 한 그릇을 만나보세요.
+</p>
+
+<div class="cta-buttons">
+
+<a href="location.html" class="cta-btn gold">
+매장 위치 보기
+</a>
+
+<a href="tel:0647438988" class="cta-btn dark">
+전화 문의
+</a>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container footer-inner">
+
+<div>
+
+<div class="footer-logo">
+감초식당
+</div>
+
+<div class="footer-info">
+제주 로컬 국밥 전문점<br>
+오랜 시간 변하지 않은 한 그릇
+</div>
+
+</div>
+
+<div class="footer-info">
+OPEN AM 11:00 - PM 24:00<br>
+Last Order 안주류 PM 23:00 국밥류 PM 23:30<br>
+정기휴무 매주 수요일<br>
+TEL 064-743-8988
+</div>
+
+</div>
+
+</footer>
+
+<!-- FLOATING CALL -->
+
+<a href="tel:0647438988" class="floating-call">
+☎
+</a>
+
+<script>
+
+window.addEventListener('scroll',()=>{
+
+const header=document.getElementById('header');
+
+header.classList.toggle('scrolled',window.scrollY>30);
+
+});
+
+</script>
+
+</body>
+</html>
