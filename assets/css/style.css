@@ -491,3 +491,125 @@ footer {
 
 
 }
+
+/* ==========================
+   ABOUT SECTION
+========================== */
+
+
+.about {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:80px;
+
+    padding:120px 10%;
+
+    background:#F8F6F2;
+
+}
+
+
+
+.about-image {
+
+    width:50%;
+
+}
+
+
+
+.about-image img {
+
+    width:100%;
+
+    height:600px;
+
+    object-fit:cover;
+
+}
+
+
+
+.about-text {
+
+    width:50%;
+
+}
+
+
+
+.about-text span {
+
+    font-size:14px;
+
+    letter-spacing:4px;
+
+    color:#2E6F64;
+
+}
+
+
+
+.about-text h2 {
+
+    font-size:45px;
+
+    line-height:1.4;
+
+    margin:30px 0;
+
+}
+
+
+
+.about-text p {
+
+    color:#555;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+@media(max-width:768px){
+
+
+    .about {
+
+        flex-direction:column;
+
+        padding:80px 5%;
+
+        gap:40px;
+
+    }
+
+
+    .about-image,
+    .about-text {
+
+        width:100%;
+
+    }
+
+
+    .about-image img {
+
+        height:400px;
+
+    }
+
+
+    .about-text h2 {
+
+        font-size:32px;
+
+    }
+
+
+}
