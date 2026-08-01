@@ -4,7 +4,7 @@
 1100 GOJI
 
 Main Javascript
-Build 0.3
+Build 0.3.1
 =====================================
 */
 
@@ -14,13 +14,19 @@ document.addEventListener(
     function(){
 
 
-
         const header = document.querySelector(".header");
 
-        const logo = document.querySelector(".logo");
+        const menuButton = document.querySelector(".menu-button");
 
-        const navLinks = document.querySelectorAll(".nav a");
+        const nav = document.querySelector(".nav");
 
+
+
+        /*
+        =====================
+        Header Scroll
+        =====================
+        */
 
 
         window.addEventListener(
@@ -43,10 +49,38 @@ document.addEventListener(
                 }
 
 
-
             }
-
         );
+
+
+
+
+
+        /*
+        =====================
+        Mobile Menu
+        =====================
+        */
+
+
+        if(menuButton){
+
+
+            menuButton.addEventListener(
+                "click",
+                function(){
+
+
+                    this.classList.toggle("active");
+
+                    nav.classList.toggle("active");
+
+
+                }
+            );
+
+
+        }
 
 
 
