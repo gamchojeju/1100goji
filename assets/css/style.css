@@ -709,3 +709,51 @@ img{
 
 
 }
+
+/* =====================
+   HEADER SCROLL EFFECT
+===================== */
+
+
+.header.scrolled{
+
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(10px);
+
+    padding:18px 0;
+
+
+}
+
+
+
+.header.scrolled .logo,
+.header.scrolled .nav a{
+
+
+    color:#222;
+
+
+}
+
+
+
+.header.scrolled .nav a:hover{
+
+
+    color:var(--gold);
+
+
+}
+
+
+
+.header.scrolled .menu-button span{
+
+
+    background:#222;
+
+
+}
