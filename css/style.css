@@ -865,3 +865,85 @@ MOBILE
 
 
 }
+/* =====================
+   BRAND IMAGE FIX
+   Build 0.4 Patch
+===================== */
+
+
+/* PC */
+
+.brand-image{
+
+    padding:30px;
+
+}
+
+
+.brand-image::after{
+
+    top:0;
+
+    left:0;
+
+}
+
+
+.brand-image img{
+
+    height:auto;
+
+    aspect-ratio:4 / 5;
+
+    object-fit:cover;
+
+}
+
+
+
+
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+
+    .brand-section{
+
+        padding:80px 0;
+
+    }
+
+
+
+    .brand-image{
+
+        padding:15px;
+
+    }
+
+
+
+    .brand-image img{
+
+
+        height:auto;
+
+        aspect-ratio:4 / 5;
+
+
+    }
+
+
+    .brand-inner{
+
+
+        gap:40px;
+
+
+    }
+
+
+
+}
