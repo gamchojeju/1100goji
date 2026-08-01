@@ -1,0 +1,868 @@
+/* =====================================
+   🌋 Project HALLA
+   1100 GOJI
+   Build 0.3
+
+   Main Style Sheet
+===================================== */
+
+
+/* =====================
+   RESET
+===================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+body{
+
+    font-family:'Noto Sans KR',sans-serif;
+
+    background:#f7f3ec;
+
+    color:#222;
+
+    overflow-x:hidden;
+
+}
+
+
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+
+
+
+/* =====================
+   VARIABLES
+===================== */
+
+
+:root{
+
+
+    --green:#304f43;
+
+    --dark:#1f1f1f;
+
+    --beige:#f7f3ec;
+
+    --gold:#d8b36a;
+
+    --white:#ffffff;
+
+
+    --container:1200px;
+
+
+    --transition:.35s ease;
+
+
+}
+
+
+
+
+
+
+/* =====================
+   COMMON
+===================== */
+
+
+.container{
+
+    width:min(90%, var(--container));
+
+    margin:auto;
+
+}
+
+
+
+
+
+
+
+/* =====================
+   HEADER
+===================== */
+
+
+.header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+
+    padding:28px 0;
+
+
+    transition:var(--transition);
+
+
+}
+
+
+
+.header-inner{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+
+/* Logo */
+
+
+.logo{
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    line-height:.9;
+
+}
+
+
+
+.logo-number{
+
+
+    font-size:14px;
+
+    letter-spacing:7px;
+
+}
+
+
+
+.logo-name{
+
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:32px;
+
+    letter-spacing:3px;
+
+    font-weight:600;
+
+
+}
+
+
+
+
+/* Navigation */
+
+
+.nav{
+
+    display:flex;
+
+    gap:45px;
+
+}
+
+
+
+.nav a{
+
+
+    color:white;
+
+    font-size:15px;
+
+    position:relative;
+
+    transition:var(--transition);
+
+}
+
+
+
+
+.nav a::after{
+
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:1px;
+
+    background:var(--gold);
+
+    transition:var(--transition);
+
+
+}
+
+
+
+.nav a:hover::after{
+
+
+    width:100%;
+
+
+}
+
+
+
+
+
+
+/* Mobile Button */
+
+
+.menu-button{
+
+
+    display:none;
+
+
+    background:none;
+
+    border:0;
+
+
+}
+
+
+
+.menu-button span{
+
+
+    display:block;
+
+    width:25px;
+
+    height:2px;
+
+    background:white;
+
+    margin:6px;
+
+
+}
+
+
+
+
+
+
+
+
+/* =====================
+   HERO
+===================== */
+
+
+.hero{
+
+
+    height:100vh;
+
+    min-height:700px;
+
+
+    position:relative;
+
+
+    background-image:url("../images/hero/hallasan.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+/* overlay */
+
+
+.hero-overlay{
+
+
+    position:absolute;
+
+    inset:0;
+
+
+    background:
+
+    linear-gradient(
+
+        to bottom,
+
+        rgba(0,0,0,.25),
+
+        rgba(0,0,0,.65)
+
+    );
+
+
+}
+
+
+
+
+
+
+/* Hero Content */
+
+
+.hero-content{
+
+
+    position:relative;
+
+    z-index:2;
+
+
+    color:white;
+
+
+    animation:heroFade 1.2s ease;
+
+
+}
+
+
+
+
+
+.hero-location{
+
+
+    font-size:14px;
+
+
+    letter-spacing:8px;
+
+
+    margin-bottom:30px;
+
+
+    opacity:.9;
+
+
+}
+
+
+
+
+
+
+.hero h1{
+
+
+    font-family:'Cormorant Garamond',serif;
+
+
+    font-size:120px;
+
+
+    font-weight:600;
+
+
+    line-height:.8;
+
+
+    letter-spacing:4px;
+
+
+    margin-bottom:40px;
+
+
+}
+
+
+
+
+.hero h1 span{
+
+
+    display:block;
+
+
+}
+
+
+
+
+
+.hero-description{
+
+
+    font-size:22px;
+
+
+    line-height:1.8;
+
+
+    font-weight:300;
+
+
+    margin-bottom:45px;
+
+
+}
+
+
+
+
+
+.hero-button{
+
+
+    display:inline-flex;
+
+
+    align-items:center;
+
+    justify-content:center;
+
+
+    padding:16px 45px;
+
+
+    border:1px solid rgba(255,255,255,.8);
+
+
+    border-radius:100px;
+
+
+    color:white;
+
+
+    transition:var(--transition);
+
+
+}
+
+
+
+.hero-button:hover{
+
+
+    background:white;
+
+
+    color:var(--green);
+
+
+}
+
+
+
+
+
+
+
+
+/* Scroll */
+
+
+.scroll-indicator{
+
+
+    position:absolute;
+
+
+    bottom:35px;
+
+
+    left:50%;
+
+
+    transform:translateX(-50%);
+
+
+    color:white;
+
+
+    z-index:2;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.scroll-indicator span{
+
+
+    display:block;
+
+
+    width:1px;
+
+    height:45px;
+
+
+    background:white;
+
+
+    margin:auto;
+
+
+}
+
+
+
+.scroll-indicator p{
+
+
+    margin-top:15px;
+
+
+    font-size:11px;
+
+
+    letter-spacing:4px;
+
+
+}
+
+
+
+
+
+
+
+/* =====================
+   EMPTY SECTION
+===================== */
+
+
+.empty-section{
+
+
+    height:100vh;
+
+
+}
+
+
+
+
+
+
+
+
+/* =====================
+   ANIMATION
+===================== */
+
+
+@keyframes heroFade{
+
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* =====================
+   MOBILE
+===================== */
+
+
+@media(max-width:768px){
+
+
+
+    .nav{
+
+        display:none;
+
+    }
+
+
+
+    .menu-button{
+
+        display:block;
+
+    }
+
+
+
+
+    .hero h1{
+
+
+        font-size:70px;
+
+
+    }
+
+
+
+
+    .hero-description{
+
+
+        font-size:18px;
+
+
+    }
+
+
+
+    .hero-location{
+
+
+        letter-spacing:5px;
+
+
+    }
+
+
+}
+
+/* =====================
+   HEADER SCROLL EFFECT
+===================== */
+
+
+.header.scrolled{
+
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(10px);
+
+    padding:18px 0;
+
+
+}
+
+
+
+.header.scrolled .logo,
+.header.scrolled .nav a{
+
+
+    color:#222;
+
+
+}
+
+
+
+.header.scrolled .nav a:hover{
+
+
+    color:var(--gold);
+
+
+}
+
+
+
+.header.scrolled .menu-button span{
+
+
+    background:#222;
+
+
+}
+
+/* =====================
+   MOBILE MENU
+===================== */
+
+
+@media(max-width:768px){
+
+
+    .nav{
+
+
+        position:fixed;
+
+        top:0;
+
+        right:-100%;
+
+        width:75%;
+
+        height:100vh;
+
+
+        background:white;
+
+
+        display:flex;
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        align-items:center;
+
+
+        gap:35px;
+
+
+        transition:.4s;
+
+
+    }
+
+
+
+    .nav a{
+
+
+        color:#222;
+
+        font-size:20px;
+
+
+    }
+
+
+
+    .nav.active{
+
+
+        right:0;
+
+
+    }
+
+
+
+    .menu-button{
+
+
+        position:relative;
+
+        z-index:1001;
+
+
+    }
+
+
+
+    .menu-button.active span:nth-child(1){
+
+
+        transform:translateY(8px) rotate(45deg);
+
+
+    }
+
+
+
+    .menu-button.active span:nth-child(2){
+
+
+        opacity:0;
+
+
+    }
+
+
+
+    .menu-button.active span:nth-child(3){
+
+
+        transform:translateY(-8px) rotate(-45deg);
+
+
+    }
+
+
+}
