@@ -1,275 +1,226 @@
 /* ==========================
    1100 GOJI
-   Jeju Premium Restaurant
+   Project HALLA
 ========================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+:root{
+    --green:#2F5D50;
+    --beige:#F7F3EC;
+    --black:#2F2F2F;
+    --white:#ffffff;
+    --gold:#D8B36A;
 
-
-:root {
-
-    --bg-color: #F8F6F2;
-    --text-color: #1E1E1E;
-    --point-color: #2E6F64;
-    --stone-color: #555555;
-    --sand-color: #D8C3A5;
-
+    --max-width:1200px;
+    --radius:18px;
+    --transition:.35s ease;
 }
 
-
-* {
-
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
-
 }
 
-
-body {
-
-    font-family:'Noto Sans KR', sans-serif;
-    background:var(--bg-color);
-    color:var(--text-color);
-    line-height:1.7;
-
+html{
+    scroll-behavior:smooth;
 }
 
+body{
+    font-family:'Noto Sans KR',sans-serif;
+    background:var(--beige);
+    color:var(--black);
+    overflow-x:hidden;
+}
 
-header {
+/* ---------- 공통 ---------- */
 
-    position:absolute;
-    width:100%;
+.container{
+    width:min(90%, var(--max-width));
+    margin:auto;
+}
+
+/* ---------- Header ---------- */
+
+.header{
+
+    position:fixed;
+
     top:0;
-    z-index:10;
-    padding:30px 8%;
-
-}
-
-
-nav {
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-}
-
-
-.logo {
-
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-    color:white;
-
-}
-
-
-.logo-mountain {
-
-    font-size:18px;
-
-    line-height:10px;
-
-    opacity:.8;
-
-}
-
-
-.logo-text {
-
-    font-family:'Cormorant Garamond', serif;
-
-    font-size:38px;
-
-    font-weight:700;
-
-    letter-spacing:3px;
-
-}
-
-
-.logo small {
-
-    font-size:11px;
-
-    letter-spacing:5px;
-
-    margin-top:-5px;
-
-    opacity:.8;
-
-}
-
-
-nav ul {
-
-    display:flex;
-    gap:40px;
-    list-style:none;
-
-}
-
-
-nav ul li a {
-
-    color:white;
-    text-decoration:none;
-    font-size:15px;
-    letter-spacing:1px;
-
-}
-
-
-
-/* ==========================
-   HERO SECTION
-   1100 GOJI JEJU EXPERIENCE
-========================== */
-
-
-.hero {
-
-    height:100vh;
-    min-height:700px;
-
-    background:
-    linear-gradient(
-        rgba(0,0,0,0.25),
-        rgba(0,0,0,0.55)
-    ),
-    url('../images/hero.jpg');
-
-    background-size:cover;
-    background-position:center;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
-
-    color:white;
-
-    position:relative;
-
-}
-
-
-/* 자연스러운 어두운 그라데이션 */
-
-.hero::after {
-
-    content:"";
-    position:absolute;
-
-    bottom:0;
     left:0;
 
     width:100%;
-    height:200px;
 
-    background:
-    linear-gradient(
-        transparent,
-        #F8F6F2
-    );
+    z-index:999;
+
+    padding:28px 0;
+
+    transition:.35s;
+}
+
+.header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.logo{
+
+    text-decoration:none;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    line-height:1;
+}
+
+.logo span{
+
+    font-size:14px;
+
+    letter-spacing:5px;
+}
+
+.logo strong{
+
+    font-size:28px;
+
+    font-family:'Cormorant Garamond',serif;
+
+    letter-spacing:2px;
+}
+
+.nav{
+
+    display:flex;
+
+    gap:40px;
+}
+
+.nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    transition:var(--transition);
+}
+
+.nav a:hover{
+
+    color:var(--gold);
 
 }
 
+/* ---------- Hero ---------- */
 
-/* HERO TEXT */
-
-.hero-content {
+.hero{
 
     position:relative;
-    z-index:2;
 
-    animation:fadeUp 1.5s ease;
+    width:100%;
 
+    height:100vh;
+
+    background:url("../images/hero/hallasan.jpg") center center/cover no-repeat;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
 }
 
+.overlay{
 
-.hero-content h1 {
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.25);
+}
+
+.hero-content{
+
+    position:relative;
+
+    color:white;
+
+    z-index:2;
+
+    animation:fadeUp 1s ease;
+}
+
+.country{
+
+    letter-spacing:6px;
+
+    font-size:14px;
+
+    margin-bottom:15px;
+
+    opacity:.9;
+}
+
+.hero h1{
 
     font-family:'Cormorant Garamond',serif;
 
     font-size:100px;
 
-    letter-spacing:10px;
+    line-height:.9;
 
-    font-weight:600;
-
-    margin-bottom:20px;
-
+    margin-bottom:35px;
 }
 
+.hero-text{
 
-.hero-content p:first-of-type {
+    font-size:22px;
 
-    font-size:32px;
+    line-height:1.8;
 
-    font-weight:300;
-
-    letter-spacing:3px;
-
+    margin-bottom:45px;
 }
 
+.hero-btn{
 
-.hero-content p:last-of-type {
+    display:inline-block;
 
-    margin-top:15px;
+    padding:16px 42px;
 
-    font-size:20px;
+    border:2px solid white;
 
-    letter-spacing:5px;
-
-    opacity:0.9;
-
-}
-
-
-/* BUTTON */
-
-.hero-button {
-
-    margin-top:50px;
-
-    padding:16px 55px;
-
-    border:
-
-    1px solid rgba(255,255,255,0.8);
-
-    background:
-
-    rgba(255,255,255,0.05);
-
-    backdrop-filter:blur(5px);
+    border-radius:999px;
 
     color:white;
 
-    transition:.4s;
+    text-decoration:none;
 
+    transition:.35s;
 }
 
-
-.hero button:hover {
+.hero-btn:hover{
 
     background:white;
 
-    color:#222;
+    color:var(--green);
 
 }
 
+/* ---------- Animation ---------- */
 
-/* 등장 애니메이션 */
+@keyframes fadeUp{
 
-@keyframes fadeUp {
-
-    from {
+    from{
 
         opacity:0;
 
@@ -277,8 +228,7 @@ nav ul li a {
 
     }
 
-
-    to {
+    to{
 
         opacity:1;
 
@@ -288,328 +238,32 @@ nav ul li a {
 
 }
 
+/* ---------- Mobile ---------- */
 
-button {
+@media(max-width:768px){
 
-    margin-top:40px;
-    padding:15px 45px;
+.hero h1{
 
-    border:1px solid white;
-    background:transparent;
-    color:white;
-
-    font-size:15px;
-    cursor:pointer;
+    font-size:62px;
 
 }
 
+.hero-text{
 
-/* INTRO */
-
-.intro {
-
-    padding:120px 10%;
-    text-align:center;
+    font-size:18px;
 
 }
 
-
-.intro h2,
-.menu h2 {
-
-    font-size:42px;
-    margin-bottom:30px;
-
-}
-
-
-/* MENU */
-
-.menu {
-
-    padding:100px 10%;
-    background:white;
-    text-align:center;
-
-}
-
-
-.menu div {
-
-    margin:50px auto;
-    max-width:500px;
-
-}
-
-
-.menu h3 {
-
-    font-size:28px;
-    margin-bottom:15px;
-
-}
-
-
-
-footer {
-
-    padding:40px;
-    text-align:center;
-    background:#111;
-    color:white;
-
-}
-/* ==========================
-   MOBILE RESPONSIVE
-========================== */
-
-
-.menu-toggle {
+.nav{
 
     display:none;
 
 }
 
+.logo strong{
 
-/* Tablet & Mobile */
-
-@media(max-width:768px){
-
-
-    header {
-
-        padding:25px 5%;
-
-    }
-
-
-    .logo-text {
-
-        font-size:28px;
-
-    }
-
-
-    nav ul {
-
-        display:none;
-
-        position:absolute;
-
-        top:80px;
-        left:0;
-
-        width:100%;
-
-        background:rgba(0,0,0,0.85);
-
-        flex-direction:column;
-
-        text-align:center;
-
-        padding:30px 0;
-
-    }
-
-
-    nav ul li {
-
-        margin:15px 0;
-
-    }
-
-
-    .menu-toggle {
-
-        display:flex;
-
-        flex-direction:column;
-
-        gap:6px;
-
-        cursor:pointer;
-
-    }
-
-
-    .menu-toggle span {
-
-
-        width:28px;
-
-        height:2px;
-
-        background:white;
-
-
-    }
-
-
-
-    .hero {
-
-        min-height:650px;
-
-    }
-
-
-
-    .hero-content h1 {
-
-        font-size:55px;
-
-        letter-spacing:5px;
-
-    }
-
-
-    .hero-content p:first-of-type {
-
-
-        font-size:22px;
-
-
-    }
-
-
-    .hero-content p:last-of-type {
-
-
-        font-size:15px;
-
-
-    }
-
-
-    .hero button {
-
-
-        padding:14px 35px;
-
-
-    }
-
+    font-size:22px;
 
 }
-
-/* ==========================
-   ABOUT SECTION
-========================== */
-
-
-.about {
-
-    display:flex;
-
-    align-items:center;
-
-    gap:80px;
-
-    padding:120px 10%;
-
-    background:#F8F6F2;
-
-}
-
-
-
-.about-image {
-
-    width:50%;
-
-}
-
-
-
-.about-image img {
-
-    width:100%;
-
-    height:600px;
-
-    object-fit:cover;
-
-}
-
-
-
-.about-text {
-
-    width:50%;
-
-}
-
-
-
-.about-text span {
-
-    font-size:14px;
-
-    letter-spacing:4px;
-
-    color:#2E6F64;
-
-}
-
-
-
-.about-text h2 {
-
-    font-size:45px;
-
-    line-height:1.4;
-
-    margin:30px 0;
-
-}
-
-
-
-.about-text p {
-
-    color:#555;
-
-    margin-bottom:20px;
-
-}
-
-
-
-
-@media(max-width:768px){
-
-
-    .about {
-
-        flex-direction:column;
-
-        padding:80px 5%;
-
-        gap:40px;
-
-    }
-
-
-    .about-image,
-    .about-text {
-
-        width:100%;
-
-    }
-
-
-    .about-image img {
-
-        height:400px;
-
-    }
-
-
-    .about-text h2 {
-
-        font-size:32px;
-
-    }
-
 
 }
