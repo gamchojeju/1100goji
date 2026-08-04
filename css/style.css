@@ -797,3 +797,16 @@ opacity:1;
 transform:translateY(0);
 
 }
+.logo{
+
+    text-align:center;
+    line-height:0.9;
+
+}
+
+
+.logo span{
+
+    margin-top:8px;
+
+}
