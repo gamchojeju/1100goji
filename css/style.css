@@ -773,3 +773,27 @@ font-size:38px;
 
 
 }
+/* =========================
+SCROLL EFFECT
+========================= */
+
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(50px);
+
+transition:1s;
+
+}
+
+
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
