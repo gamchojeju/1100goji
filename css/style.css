@@ -827,3 +827,52 @@ transform:translateY(0);
     letter-spacing:15px;
 
 }
+.route{
+
+padding:120px 20px;
+
+background:#f7f3ee;
+
+text-align:center;
+
+}
+
+
+.route p{
+
+letter-spacing:5px;
+
+color:#2f5d50;
+
+font-size:13px;
+
+}
+
+
+.route h2{
+
+margin:30px 0;
+
+}
+
+
+
+.route-line{
+
+font-size:20px;
+
+line-height:3;
+
+}
+
+
+
+.route-line strong{
+
+display:block;
+
+font-size:40px;
+
+color:#2f5d50;
+
+}
