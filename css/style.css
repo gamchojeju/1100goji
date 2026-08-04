@@ -909,3 +909,55 @@ rgba(0,0,0,.55)
 );
 
 }
+/* =========================
+   HERO SCROLL INDICATOR
+========================= */
+
+.scroll-indicator{
+    position:absolute;
+    left:50%;
+    bottom:35px;
+    transform:translateX(-50%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#fff;
+    z-index:5;
+    letter-spacing:3px;
+    font-size:11px;
+}
+
+.mouse{
+    width:26px;
+    height:42px;
+    border:2px solid rgba(255,255,255,.8);
+    border-radius:20px;
+    margin-top:10px;
+    position:relative;
+}
+
+.wheel{
+    width:4px;
+    height:8px;
+    background:#fff;
+    border-radius:3px;
+    position:absolute;
+    left:50%;
+    top:8px;
+    transform:translateX(-50%);
+    animation:wheelMove 1.8s infinite;
+}
+
+@keyframes wheelMove{
+
+0%{
+opacity:1;
+top:8px;
+}
+
+100%{
+opacity:0;
+top:22px;
+}
+
+}
