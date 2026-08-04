@@ -1,216 +1,516 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-<title>
-1100 GOJI | 제주의 풍경과 맛을 담다
-</title>
-
-
-<meta name="description" content="제주의 가장 높은 길 1100고지에서 시작된 특별한 이야기">
-
+<title>1100 GOJI | 제주 한 끼 여행</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Noto Sans KR',sans-serif;
+    color:#333;
+    background:#f7f3ee;
+}
 
 
-<link rel="stylesheet" href="css/style.css">
+header{
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:10;
+    padding:25px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
 
+
+.logo{
+    font-size:28px;
+    font-weight:900;
+    letter-spacing:2px;
+}
+
+
+.menu{
+    font-size:25px;
+}
+
+
+/* HERO */
+
+.hero{
+
+    height:100vh;
+    min-height:650px;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,.35),
+    rgba(0,0,0,.55)
+    ),
+    url('images/hero.jpg');
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    color:white;
+
+}
+
+
+.hero h1{
+
+    font-size:65px;
+    letter-spacing:4px;
+    margin-bottom:20px;
+
+}
+
+
+.hero p{
+
+    font-size:25px;
+    line-height:1.6;
+
+}
+
+
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:35px;
+
+    padding:14px 35px;
+
+    border:1px solid white;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:40px;
+
+}
+
+
+/* STORY */
+
+
+.section{
+
+    padding:100px 20px;
+
+}
+
+
+.container{
+
+    max-width:1200px;
+    margin:auto;
+
+}
+
+
+.story{
+
+    text-align:center;
+
+}
+
+
+.story h2{
+
+    font-size:40px;
+    margin-bottom:30px;
+
+}
+
+
+.story p{
+
+    font-size:18px;
+    line-height:2;
+
+}
+
+
+
+/* MENU */
+
+.menu-title{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+
+.menu-title h2{
+
+    font-size:40px;
+
+}
+
+
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+
+
+
+.card div{
+
+    padding:25px;
+
+}
+
+
+
+.card h3{
+
+    font-size:25px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+/* TRAVEL */
+
+.travel{
+
+    background:#2f5d50;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+
+.travel h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+    padding:40px;
+
+    text-align:center;
+
+    background:#222;
+
+    color:white;
+
+}
+
+
+
+/* MOBILE */
+
+
+@media(max-width:768px){
+
+
+header{
+
+    padding:20px;
+
+}
+
+
+.logo{
+
+    font-size:22px;
+
+}
+
+
+.hero h1{
+
+    font-size:40px;
+
+}
+
+
+.hero p{
+
+    font-size:18px;
+
+}
+
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.section{
+
+    padding:70px 20px;
+
+}
+
+
+.story h2,
+.menu-title h2,
+.travel h2{
+
+    font-size:32px;
+
+}
+
+
+.card img{
+
+    height:230px;
+
+}
+
+
+}
+
+
+
+</style>
 
 </head>
-
 
 
 <body>
 
 
-<header class="header">
+<header>
 
-<div class="container header-inner">
+<div class="logo">
+1100 GOJI
+</div>
 
-
-<a href="#" class="logo">
-
-<span class="logo-number">
-1100
-</span>
-
-<span class="logo-name">
-GOJI
-</span>
-
-</a>
-
-
-
-<nav class="nav">
-
-<a href="#brand">
-Brand
-</a>
-
-<a href="#menu">
-Menu
-</a>
-
-<a href="#travel">
-Travel
-</a>
-
-<a href="#visit">
-Visit
-</a>
-
-</nav>
-
-
-
-<button class="menu-button">
-
-<span></span>
-<span></span>
-<span></span>
-
-</button>
-
-
+<div class="menu">
+☰
 </div>
 
 </header>
 
 
 
-
-
 <section class="hero">
 
 
-<div class="hero-overlay"></div>
-
-
-<div class="hero-content">
-
-
-<p class="hero-location">
-JEJU · KOREA
-</p>
-
+<div>
 
 <h1>
-
-<span>
-1100
-</span>
-
-<span>
-GOJI
-</span>
-
+1100 GOJI
 </h1>
 
 
-<p class="hero-description">
-
-제주의 풍경을 담고,<br>
-제주의 맛을 전합니다.
-
+<p>
+구름 위 제주,<br>
+한 그릇의 여행
 </p>
 
 
-<a href="#brand" class="hero-button">
-Taste Jeju
+<a class="btn" href="#">
+MENU
 </a>
 
 
 </div>
 
 
-
-<div class="scroll-indicator">
-
-<span></span>
-
-<p>
-SCROLL
-</p>
-
-</div>
-
-
 </section>
 
 
 
 
 
+<section class="section story">
 
-<!-- =====================
-BRAND STORY
-===================== -->
-
-
-<section id="brand" class="brand-section">
-
-
-<div class="container brand-inner">
-
-
-
-<div class="brand-image">
-
-
-<img src="images/brand/story.jpg" alt="1100고지 제주 풍경">
-
-
-</div>
-
-
-
-
-<div class="brand-text">
-
-
-<p class="section-label">
-JEJU STORY
-</p>
-
+<div class="container">
 
 <h2>
-
-제주의 가장 높은 길,<br>
-1100고지에서 시작된<br>
-따뜻한 이야기
-
+1100m, 제주를 담다
 </h2>
 
 
-
 <p>
 
-한라산을 오르는 길,
-구름과 바람이 머무는 곳.
+한라산의 바람과 제주 자연의 시간을 담아<br>
+
+여행자의 기억에 남는 따뜻한 한 끼를 준비합니다.
 
 <br><br>
 
-1100 GOJI는 제주의 자연과
-여행자의 순간을 담아내는
-작은 공간입니다.
+A Taste Above Jeju
 
 </p>
 
 
 </div>
 
+</section>
+
+
+
+
+
+<section class="section">
+
+
+<div class="container">
+
+
+<div class="menu-title">
+
+<h2>
+JEJU MENU
+</h2>
+
+</div>
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<img src="images/noodle.jpg">
+
+<div>
+
+<h3>
+고기국수
+</h3>
+
+<p>
+제주 돼지고기의 깊은 맛과
+따뜻한 육수
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="images/dombe.jpg">
+
+<div>
+
+<h3>
+돔베고기
+</h3>
+
+<p>
+제주 방식 그대로 담은
+담백한 맛
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/yukgaejang.jpg">
+
+<div>
+
+<h3>
+고사리육개장
+</h3>
+
+<p>
+제주의 산과 들을 담은
+깊은 국물
+
+</p>
+
+</div>
+
+</div>
+
+
+
+</div>
 
 </div>
 
@@ -221,25 +521,35 @@ JEJU STORY
 
 
 
+<section class="section travel">
 
 
-<section id="menu" class="empty-section"></section>
+<h2>
+YOUR JEJU MEMORY
+</h2>
+
+<p>
+
+한라산을 지나,<br>
+제주의 맛을 만나는 곳
+
+</p>
 
 
-<section id="travel" class="empty-section"></section>
-
-
-<section id="visit" class="empty-section"></section>
+</section>
 
 
 
 
 
+<footer>
 
-<script src="js/main.js"></script>
+1100 GOJI<br>
+JEJU KOREA
+
+</footer>
+
 
 
 </body>
-
-
 </html>
