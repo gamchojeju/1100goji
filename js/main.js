@@ -1,88 +1,79 @@
-/*
-=====================================
-🌋 Project HALLA
-1100 GOJI
-
-Main Javascript
-Build 0.3.1
-=====================================
-*/
-
-
-document.addEventListener(
-    "DOMContentLoaded",
-    function(){
-
-
-        const header = document.querySelector(".header");
-
-        const menuButton = document.querySelector(".menu-button");
-
-        const nav = document.querySelector(".nav");
+// =========================
+// 1100 GOJI SCRIPT
+// Build 0.42
+// =========================
 
 
 
-        /*
-        =====================
-        Header Scroll
-        =====================
-        */
+// HEADER SCROLL EFFECT
+
+const header = document.querySelector(".header");
 
 
-        window.addEventListener(
-            "scroll",
-            function(){
+window.addEventListener("scroll",()=>{
 
 
-                if(window.scrollY > 80){
+    if(window.scrollY > 80){
 
+        header.style.background =
+        "rgba(47,93,80,0.92)";
 
-                    header.classList.add("scrolled");
+        header.style.backdropFilter =
+        "blur(10px)";
 
+    }else{
 
-                }else{
-
-
-                    header.classList.remove("scrolled");
-
-
-                }
-
-
-            }
-        );
-
-
-
-
-
-        /*
-        =====================
-        Mobile Menu
-        =====================
-        */
-
-
-        if(menuButton){
-
-
-            menuButton.addEventListener(
-                "click",
-                function(){
-
-
-                    this.classList.toggle("active");
-
-                    nav.classList.toggle("active");
-
-
-                }
-            );
-
-
-        }
-
-
+        header.style.background =
+        "transparent";
 
     }
-);
+
+
+});
+
+
+
+
+
+// SCROLL FADE ANIMATION
+
+
+const observer = new IntersectionObserver((entries)=>{
+
+
+entries.forEach(entry=>{
+
+
+if(entry.isIntersecting){
+
+
+entry.target.classList.add("show");
+
+
+}
+
+
+});
+
+
+},{
+
+threshold:0.15
+
+});
+
+
+
+
+document.querySelectorAll(
+".story, .menu-card, .travel, .location"
+)
+.forEach(el=>{
+
+
+el.classList.add("hidden");
+
+observer.observe(el);
+
+
+});
