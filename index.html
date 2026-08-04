@@ -1,346 +1,21 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>1100 GOJI | 제주 한 끼 여행</title>
 
+<meta name="description" content="한라산을 닮은 제주, 여행자의 한 끼가 되는 공간 1100 GOJI">
+
+<link rel="stylesheet" href="css/style.css">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    color:#333;
-    background:#f7f3ee;
-}
-
-
-header{
-    position:absolute;
-    width:100%;
-    top:0;
-    left:0;
-    z-index:10;
-    padding:25px 40px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    color:white;
-}
-
-
-.logo{
-    font-size:28px;
-    font-weight:900;
-    letter-spacing:2px;
-}
-
-
-.menu{
-    font-size:25px;
-}
-
-
-/* HERO */
-
-.hero{
-
-    height:100vh;
-    min-height:650px;
-
-    background:
-    linear-gradient(
-    rgba(0,0,0,.35),
-    rgba(0,0,0,.55)
-    ),
-    url('images/hero.jpg');
-
-    background-size:cover;
-    background-position:center;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-align:center;
-    color:white;
-
-}
-
-
-.hero h1{
-
-    font-size:65px;
-    letter-spacing:4px;
-    margin-bottom:20px;
-
-}
-
-
-.hero p{
-
-    font-size:25px;
-    line-height:1.6;
-
-}
-
-
-
-.btn{
-
-    display:inline-block;
-
-    margin-top:35px;
-
-    padding:14px 35px;
-
-    border:1px solid white;
-
-    color:white;
-
-    text-decoration:none;
-
-    border-radius:40px;
-
-}
-
-
-/* STORY */
-
-
-.section{
-
-    padding:100px 20px;
-
-}
-
-
-.container{
-
-    max-width:1200px;
-    margin:auto;
-
-}
-
-
-.story{
-
-    text-align:center;
-
-}
-
-
-.story h2{
-
-    font-size:40px;
-    margin-bottom:30px;
-
-}
-
-
-.story p{
-
-    font-size:18px;
-    line-height:2;
-
-}
-
-
-
-/* MENU */
-
-.menu-title{
-
-    text-align:center;
-
-    margin-bottom:50px;
-
-}
-
-
-.menu-title h2{
-
-    font-size:40px;
-
-}
-
-
-
-.cards{
-
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:30px;
-
-}
-
-
-
-.card{
-
-    background:white;
-
-    border-radius:20px;
-
-    overflow:hidden;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-
-}
-
-
-
-.card img{
-
-    width:100%;
-
-    height:260px;
-
-    object-fit:cover;
-
-}
-
-
-
-.card div{
-
-    padding:25px;
-
-}
-
-
-
-.card h3{
-
-    font-size:25px;
-
-    margin-bottom:10px;
-
-}
-
-
-
-/* TRAVEL */
-
-.travel{
-
-    background:#2f5d50;
-
-    color:white;
-
-    text-align:center;
-
-}
-
-
-
-.travel h2{
-
-    font-size:40px;
-
-    margin-bottom:20px;
-
-}
-
-
-/* FOOTER */
-
-footer{
-
-    padding:40px;
-
-    text-align:center;
-
-    background:#222;
-
-    color:white;
-
-}
-
-
-
-/* MOBILE */
-
-
-@media(max-width:768px){
-
-
-header{
-
-    padding:20px;
-
-}
-
-
-.logo{
-
-    font-size:22px;
-
-}
-
-
-.hero h1{
-
-    font-size:40px;
-
-}
-
-
-.hero p{
-
-    font-size:18px;
-
-}
-
-
-.cards{
-
-    grid-template-columns:1fr;
-
-}
-
-
-.section{
-
-    padding:70px 20px;
-
-}
-
-
-.story h2,
-.menu-title h2,
-.travel h2{
-
-    font-size:32px;
-
-}
-
-
-.card img{
-
-    height:230px;
-
-}
-
-
-}
-
-
-
-</style>
 
 </head>
 
@@ -348,38 +23,71 @@ header{
 <body>
 
 
-<header>
+<!-- HEADER -->
+
+<header class="header">
 
 <div class="logo">
 1100 GOJI
+<span>JEJU</span>
 </div>
 
-<div class="menu">
+
+<nav>
+
+<a href="#menu">
+MENU
+</a>
+
+<a href="#story">
+STORY
+</a>
+
+<a href="#location">
+LOCATION
+</a>
+
+</nav>
+
+
+<div class="mobile-menu">
 ☰
 </div>
+
 
 </header>
 
 
 
+
+<!-- HERO -->
+
+
 <section class="hero">
 
 
-<div>
+<div class="hero-content">
+
+
+<p class="small-title">
+A TASTE ABOVE JEJU
+</p>
+
 
 <h1>
 1100 GOJI
 </h1>
 
 
-<p>
-구름 위 제주,<br>
-한 그릇의 여행
-</p>
+<h2>
+한라산을 닮은 제주,<br>
+여행자의 한 끼가 되다
+</h2>
 
 
-<a class="btn" href="#">
-MENU
+
+<a href="#menu" class="button">
+MENU VIEW
 </a>
 
 
@@ -392,29 +100,43 @@ MENU
 
 
 
-<section class="section story">
+<!-- STORY -->
+
+
+<section id="story" class="story section">
+
 
 <div class="container">
 
+
+<p class="label">
+JEJU STORY
+</p>
+
+
 <h2>
-1100m, 제주를 담다
+1100m의 바람,<br>
+제주의 시간을 담다
 </h2>
 
 
-<p>
 
-한라산의 바람과 제주 자연의 시간을 담아<br>
+<p class="text">
 
-여행자의 기억에 남는 따뜻한 한 끼를 준비합니다.
+한라산 아래 제주에서<br>
+지역의 맛과 따뜻한 한 끼를 준비합니다.
 
 <br><br>
 
-A Taste Above Jeju
+여행의 순간이 오래 기억될 수 있도록<br>
+1100 GOJI만의 제주를 전합니다.
 
 </p>
 
 
+
 </div>
+
 
 </section>
 
@@ -422,28 +144,37 @@ A Taste Above Jeju
 
 
 
-<section class="section">
+
+
+<!-- MENU -->
+
+
+<section id="menu" class="menu section">
 
 
 <div class="container">
 
 
-<div class="menu-title">
+<p class="label">
+JEJU MENU
+</p>
+
 
 <h2>
-JEJU MENU
+제주를 담은 한 그릇
 </h2>
 
-</div>
+
+
+<div class="menu-grid">
 
 
 
-<div class="cards">
+<article class="menu-card">
 
-
-<div class="card">
 
 <img src="images/noodle.jpg">
+
 
 <div>
 
@@ -451,22 +182,32 @@ JEJU MENU
 고기국수
 </h3>
 
+<span>
+JEJU NOODLE
+</span>
+
+
 <p>
 제주 돼지고기의 깊은 맛과
 따뜻한 육수
-
 </p>
 
-</div>
 
 </div>
 
 
+</article>
 
 
-<div class="card">
+
+
+
+
+<article class="menu-card">
+
 
 <img src="images/dombe.jpg">
+
 
 <div>
 
@@ -474,23 +215,33 @@ JEJU MENU
 돔베고기
 </h3>
 
-<p>
-제주 방식 그대로 담은
-담백한 맛
+<span>
+DOMBE PORK
+</span>
 
+
+<p>
+제주의 방식 그대로 삶아낸
+담백한 맛
 </p>
 
-</div>
 
 </div>
 
 
+</article>
 
 
 
-<div class="card">
+
+
+
+
+<article class="menu-card">
+
 
 <img src="images/yukgaejang.jpg">
+
 
 <div>
 
@@ -498,19 +249,27 @@ JEJU MENU
 고사리육개장
 </h3>
 
+<span>
+FERN SOUP
+</span>
+
+
 <p>
 제주의 산과 들을 담은
-깊은 국물
-
+깊은 한 그릇
 </p>
 
-</div>
 
 </div>
 
 
+</article>
+
+
 
 </div>
+
+
 
 </div>
 
@@ -521,22 +280,87 @@ JEJU MENU
 
 
 
-<section class="section travel">
+
+
+<!-- TRAVEL -->
+
+
+<section class="travel">
+
+
+<div>
+
+
+<p>
+HALLASAN
+</p>
+
+
+<span>
+↓
+</span>
 
 
 <h2>
-YOUR JEJU MEMORY
+1100 GOJI
 </h2>
+
+
+<span>
+↓
+</span>
+
+
+<p>
+YOUR MEMORY
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- LOCATION -->
+
+
+<section id="location" class="location section">
+
+
+<div class="container">
+
+
+<p class="label">
+LOCATION
+</p>
+
+
+<h2>
+제주 여행 속 작은 쉼표
+</h2>
+
 
 <p>
 
-한라산을 지나,<br>
-제주의 맛을 만나는 곳
+한라산을 지나 만나는<br>
+제주의 맛있는 순간
 
 </p>
 
 
+</div>
+
+
 </section>
+
+
 
 
 
@@ -544,12 +368,24 @@ YOUR JEJU MEMORY
 
 <footer>
 
-1100 GOJI<br>
-JEJU KOREA
+
+<h3>
+1100 GOJI
+</h3>
+
+
+<p>
+JEJU · KOREA
+</p>
+
 
 </footer>
 
 
 
+<script src="js/main.js"></script>
+
+
 </body>
+
 </html>
