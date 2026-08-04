@@ -894,3 +894,18 @@ background-position:
 }
 
 }
+.hero::after{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:
+linear-gradient(
+transparent,
+rgba(0,0,0,.55)
+);
+
+}
