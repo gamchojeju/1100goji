@@ -881,3 +881,14 @@ color:#2f5d50;
 background-position:center center;
 
 }
+
+@media(max-width:768px){
+
+.hero{
+
+background-position:
+55% center;
+
+}
+
+}
