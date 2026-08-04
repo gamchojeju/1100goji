@@ -3,7 +3,6 @@
    Build 0.41
 ========================= */
 
-
 :root{
 
     --green:#2f5d50;
@@ -420,10 +419,13 @@ transform:translateY(-10px);
 
 .menu-card img{
 
-
-height:280px;
+height:300px;
 
 object-fit:cover;
+
+object-position:center;
+
+}
 
 
 }
