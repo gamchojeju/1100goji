@@ -475,7 +475,12 @@ color:#666;
 }
 
 
+.menu-card img{
 
+height:280px;
+object-fit:cover;
+
+}
 
 
 
