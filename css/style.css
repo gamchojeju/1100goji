@@ -144,37 +144,27 @@ HERO
 
 
 .hero{
+    position:relative;
 
-position:relative;
-height:100vh;
-min-height:700px;
+    height:100vh;
+    min-height:700px;
 
+    background:
+        linear-gradient(
+            rgba(0,0,0,.15),
+            rgba(0,0,0,.45)
+        ),
+        url("../images/hero.jpg");
 
-background:
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 
-linear-gradient(
-rgba(0,0,0,.15),
-rgba(0,0,0,.45)
-),
-
-url("../images/hero.jpg");
-
-background-size:cover;
-
-background-position:center;
-
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-text-align:center;
-
-color:white;
-
-
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
 }
 
 
