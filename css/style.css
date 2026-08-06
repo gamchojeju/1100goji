@@ -977,3 +977,51 @@ JEJU MOMENT
 }
 
 }
+
+.location-info{
+
+margin:50px 0;
+
+display:grid;
+
+gap:18px;
+
+font-size:19px;
+
+color:#555;
+
+}
+
+.location-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+margin-top:40px;
+
+flex-wrap:wrap;
+
+}
+
+.location-buttons a{
+
+padding:14px 32px;
+
+border:1px solid var(--green);
+
+border-radius:50px;
+
+transition:.3s;
+
+}
+
+.location-buttons a:hover{
+
+background:var(--green);
+
+color:white;
+
+}
