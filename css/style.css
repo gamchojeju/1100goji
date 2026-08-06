@@ -1050,3 +1050,48 @@ HERO IMAGE ZOOM
     }
 
 }
+.hero .small-title{
+
+animation:fadeUp 1s .2s both;
+
+}
+
+.hero h1{
+
+animation:fadeUp 1s .6s both;
+
+}
+
+.hero h2{
+
+animation:fadeUp 1s 1s both;
+
+}
+
+.button{
+
+animation:fadeUp 1s 1.4s both;
+
+}
+
+.scroll-indicator{
+
+animation:float 2.8s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%,100%{
+
+transform:translateX(-50%) translateY(0);
+
+}
+
+50%{
+
+transform:translateX(-50%) translateY(8px);
+
+}
+
+}
