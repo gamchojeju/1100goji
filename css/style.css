@@ -231,29 +231,33 @@ line-height:1.5;
 
 .button{
 
+    display:inline-block;
 
-display:inline-block;
+    margin-top:45px;
 
-margin-top:40px;
+    padding:16px 42px;
 
-padding:14px 40px;
+    border-radius:60px;
 
-border:1px solid white;
+    color:white;
 
-border-radius:50px;
+    background:rgba(255,255,255,.08);
 
-transition:.3s;
+    backdrop-filter:blur(14px);
 
+    border:1px solid rgba(255,255,255,.25);
+
+    transition:.4s;
 
 }
 
-
-
 .button:hover{
 
-background:white;
+    background:white;
 
-color:#333;
+    color:#222;
+
+    transform:translateY(-3px);
 
 }
 
@@ -541,45 +545,63 @@ LOCATION
 ========================= */
 
 
-.location{
+.location-desc{
 
-text-align:center;
+    margin-bottom:45px;
 
-}
+    color:#666;
 
+    line-height:2;
 
-
-
-
-
-
-footer{
-
-
-background:#222;
-
-color:white;
-
-padding:50px;
-
-text-align:center;
-
+    font-size:18px;
 
 }
 
+.location-info{
 
+    display:grid;
 
-footer h3{
+    gap:18px;
 
+    margin-bottom:45px;
 
-letter-spacing:4px;
-
+    font-size:18px;
 
 }
 
+.location-buttons{
 
+    display:flex;
 
+    justify-content:center;
 
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.location-buttons a{
+
+    padding:14px 32px;
+
+    border-radius:50px;
+
+    background:#2f5d50;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.location-buttons a:hover{
+
+    transform:translateY(-3px);
+
+    background:#24483d;
+
+}
 
 
 /* =========================
@@ -765,14 +787,16 @@ transform:translateY(0);
 
 .route{
 
-padding:120px 20px;
+    padding:140px 20px;
 
-background:#f7f3ee;
+    background:linear-gradient(
+        #f7f3ee,
+        #ffffff
+    );
 
-text-align:center;
+    text-align:center;
 
 }
-
 
 .route p{
 
@@ -805,11 +829,15 @@ line-height:3;
 
 .route-line strong{
 
-display:block;
+    display:block;
 
-font-size:40px;
+    font-size:52px;
 
-color:#2f5d50;
+    color:#2f5d50;
+
+    letter-spacing:4px;
+
+    margin:20px 0;
 
 }
 .hero{
@@ -1149,69 +1177,51 @@ MENU IMAGE EFFECT
 ========================= */
 
 .menu-image{
-
     position:relative;
-
     overflow:hidden;
-
 }
 
 .menu-image img{
+    display:block;
+    width:100%;
+    transition:transform .6s ease;
+}
 
-    transition:.6s;
-
+.menu-card:hover .menu-image img{
+    transform:scale(1.08);
 }
 
 .menu-overlay{
-
     position:absolute;
-
     inset:0;
-
-    background:rgba(25,45,38,.55);
-
     display:flex;
-
     flex-direction:column;
+    justify-content:flex-end;
+    padding:28px;
 
-    justify-content:center;
+    background:linear-gradient(
+        transparent 30%,
+        rgba(0,0,0,.65)
+    );
 
-    align-items:center;
-
-    color:white;
-
+    color:#fff;
     opacity:0;
-
-    transition:.45s;
-
-}
-
-.menu-overlay span{
-
-    letter-spacing:4px;
-
-    font-size:12px;
-
-}
-
-.menu-overlay h4{
-
-    margin-top:15px;
-
-    font-size:26px;
-
-    font-weight:700;
-
-}
-
-.menu-card:hover img{
-
-    transform:scale(1.08);
-
+    transition:opacity .4s ease;
 }
 
 .menu-card:hover .menu-overlay{
-
     opacity:1;
+}
 
+.menu-overlay span{
+    font-size:11px;
+    letter-spacing:3px;
+    opacity:.9;
+}
+
+.menu-overlay h4{
+    margin-top:8px;
+    font-size:22px;
+    font-weight:700;
+    line-height:1.3;
 }
