@@ -77,3 +77,30 @@ observer.observe(el);
 
 
 });
+
+/* =========================
+   1100 GOJI
+   Build 0.50
+========================= */
+
+const hiddenElements = document.querySelectorAll(".hidden");
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if(entry.isIntersecting){
+
+            entry.target.classList.add("show");
+
+        }
+
+    });
+
+},{
+
+    threshold:0.15
+
+});
+
+hiddenElements.forEach(el => observer.observe(el));
