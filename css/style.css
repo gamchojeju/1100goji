@@ -469,71 +469,6 @@ color:#666;
 
 
 
-/* =========================
-TRAVEL
-========================= */
-
-
-.travel{
-
-
-height:500px;
-
-background:
-
-linear-gradient(
-rgba(0,0,0,.45),
-rgba(0,0,0,.65)
-),
-
-url("../images/story.jpg");
-
-
-background-size:cover;
-
-background-position:center;
-
-
-color:white;
-
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-
-text-align:center;
-
-
-}
-
-
-
-.travel p{
-
-
-letter-spacing:5px;
-
-font-size:18px;
-
-
-}
-
-
-
-.travel h2{
-
-
-font-size:55px;
-
-margin:20px 0;
-
-
-}
-
-
 
 
 
@@ -740,27 +675,7 @@ height:240px;
 
 
 
-.travel{
 
-
-height:400px;
-
-
-}
-
-
-
-.travel h2{
-
-
-font-size:38px;
-
-
-}
-
-
-
-}
 /* =========================
 SCROLL EFFECT
 ========================= */
