@@ -89,9 +89,11 @@ HEADER
 
 .logo{
 
-    font-size:30px;
-    font-weight:900;
-    letter-spacing:3px;
+font-size:30px;
+font-weight:900;
+letter-spacing:3px;
+text-align:center;
+line-height:.9;
 
 }
 
@@ -698,12 +700,6 @@ transition:1s;
 opacity:1;
 
 transform:translateY(0);
-
-}
-.logo{
-
-    text-align:center;
-    line-height:0.9;
 
 }
 
