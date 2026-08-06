@@ -206,13 +206,10 @@ margin-bottom:20px;
 
 .hero h1{
 
-
-font-size:80px;
-
-letter-spacing:8px;
-
+font-size:90px;
+letter-spacing:12px;
 font-weight:900;
-
+line-height:1;
 
 }
 
@@ -605,16 +602,6 @@ background-position:center;
 
 
 
-.hero h1{
-
-
-font-size:45px;
-
-letter-spacing:5px;
-
-
-}
-
 
 
 .hero h2{
@@ -707,13 +694,6 @@ transform:translateY(0);
 .logo span{
 
     margin-top:8px;
-
-}
-.hero h1{
-
-    font-size:90px;
-    letter-spacing:12px;
-    line-height:1;
 
 }
 
