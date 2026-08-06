@@ -1025,3 +1025,28 @@ background:var(--green);
 color:white;
 
 }
+/* =========================
+HERO IMAGE ZOOM
+========================= */
+
+.hero{
+
+    animation:heroZoom 18s ease-in-out infinite alternate;
+
+}
+
+@keyframes heroZoom{
+
+    from{
+
+        background-size:100%;
+
+    }
+
+    to{
+
+        background-size:108%;
+
+    }
+
+}
