@@ -1215,3 +1215,56 @@ MENU IMAGE EFFECT
     font-weight:700;
     line-height:1.3;
 }
+/* =========================
+   CLOSING
+========================= */
+
+.closing{
+
+    padding:180px 20px;
+    background:#2f5d50;
+    color:#fff;
+    text-align:center;
+
+}
+
+.closing h2{
+
+    font-size:56px;
+    line-height:1.5;
+    margin-bottom:40px;
+    font-weight:700;
+
+}
+
+.closing p{
+
+    font-size:16px;
+    letter-spacing:6px;
+    opacity:.8;
+    line-height:2;
+
+}
+
+@media(max-width:768px){
+
+    .closing{
+
+        padding:120px 20px;
+
+    }
+
+    .closing h2{
+
+        font-size:34px;
+
+    }
+
+    .closing p{
+
+        font-size:13px;
+        letter-spacing:4px;
+
+    }
+
+}
