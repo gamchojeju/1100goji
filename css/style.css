@@ -1080,3 +1080,32 @@ background:white;
 color:#333;
 
 }
+.hero-fog{
+
+position:absolute;
+
+inset:-20%;
+
+background:url("images/fog.png");
+
+opacity:.18;
+
+animation:fogMove 60s linear infinite;
+
+}
+
+@keyframes fogMove{
+
+0%{
+
+transform:translateX(-8%);
+
+}
+
+100%{
+
+transform:translateX(8%);
+
+}
+
+}
