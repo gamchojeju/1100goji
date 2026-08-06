@@ -777,6 +777,8 @@ transparent,
 rgba(0,0,0,.55)
 );
 
+z-index:1;
+
 }
 /* =========================
    HERO SCROLL INDICATOR
@@ -849,7 +851,8 @@ min-height:700px;
 
 }
 
-   .hero-content{
+   .hero-content,
+.scroll-indicator{
 
 position:relative;
 z-index:2;
