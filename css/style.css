@@ -771,13 +771,8 @@ position:absolute;
 
 inset:0;
 
-background:
-linear-gradient(
-transparent,
-rgba(0,0,0,.55)
-);
-
 z-index:1;
+pointer-events:none;
 
 }
 /* =========================
@@ -851,10 +846,17 @@ min-height:700px;
 
 }
 
-   .hero-content,
-.scroll-indicator{
+   .hero-content{
 
 position:relative;
 z-index:2;
+
+}
+
+
+.scroll-indicator{
+
+position:absolute;
+z-index:5;
 
 }
