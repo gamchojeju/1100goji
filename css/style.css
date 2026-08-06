@@ -484,7 +484,56 @@ object-fit:cover;
 
 
 
+/* =========================
+JEJU MOMENT
+========================= */
 
+.moment{
+
+    background:#fdfbf8;
+    text-align:center;
+
+}
+
+.moment .container{
+
+    max-width:900px;
+
+}
+
+.moment-image{
+
+    width:100%;
+    border-radius:28px;
+
+    margin-bottom:60px;
+
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.12);
+
+    transition:.6s;
+
+}
+
+.moment-image:hover{
+
+    transform:scale(1.02);
+
+}
+
+.moment h2{
+
+    margin-bottom:30px;
+
+}
+
+.moment-text{
+
+    font-size:20px;
+    line-height:2;
+    color:#666;
+
+}
 
 
 /* =========================
