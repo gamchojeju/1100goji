@@ -1,1 +1,1111 @@
+/* =========================
+   1100 GOJI STYLE
+   Build 0.41
+========================= */
 
+:root{
+
+    --green:#2f5d50;
+    --beige:#f7f3ee;
+    --dark:#222;
+    --gray:#666;
+    --white:#ffffff;
+
+}
+
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+
+body{
+
+    font-family:'Noto Sans KR',sans-serif;
+    background:var(--beige);
+    color:var(--dark);
+    line-height:1.6;
+
+}
+
+
+
+img{
+
+    width:100%;
+    display:block;
+
+}
+
+
+
+a{
+
+    text-decoration:none;
+    color:inherit;
+
+}
+
+
+
+/* =========================
+HEADER
+========================= */
+
+
+.header{
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:25px 50px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    color:white;
+
+    z-index:100;
+
+}
+
+
+
+.logo{
+
+    font-size:30px;
+    font-weight:900;
+    letter-spacing:3px;
+
+}
+
+
+
+.logo span{
+
+    display:block;
+    font-size:11px;
+    letter-spacing:5px;
+
+}
+
+
+
+.header nav{
+
+    display:flex;
+    gap:35px;
+
+}
+
+
+
+.header nav a{
+
+    font-size:14px;
+    letter-spacing:2px;
+
+}
+
+
+
+.mobile-menu{
+
+    display:none;
+    font-size:25px;
+
+}
+
+
+
+
+
+/* =========================
+HERO
+========================= */
+
+
+.hero{
+
+
+height:100vh;
+min-height:700px;
+
+
+background:
+
+linear-gradient(
+rgba(0,0,0,.25),
+rgba(0,0,0,.65)
+),
+
+url("../images/hero.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+color:white;
+
+
+}
+
+
+
+
+.hero-content{
+
+
+animation:fadeUp 1.2s ease;
+
+
+}
+
+
+
+.small-title{
+
+
+font-size:14px;
+
+letter-spacing:5px;
+
+margin-bottom:20px;
+
+
+}
+
+
+
+.hero h1{
+
+
+font-size:80px;
+
+letter-spacing:8px;
+
+font-weight:900;
+
+
+}
+
+
+
+.hero h2{
+
+
+font-size:30px;
+
+margin-top:25px;
+
+line-height:1.5;
+
+
+}
+
+
+
+.button{
+
+
+display:inline-block;
+
+margin-top:40px;
+
+padding:14px 40px;
+
+border:1px solid white;
+
+border-radius:50px;
+
+transition:.3s;
+
+
+}
+
+
+
+.button:hover{
+
+background:white;
+
+color:#333;
+
+}
+
+
+
+
+
+
+/* =========================
+COMMON
+========================= */
+
+
+.section{
+
+padding:120px 20px;
+
+}
+
+
+
+.container{
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+
+
+.label{
+
+
+color:var(--green);
+
+font-size:13px;
+
+letter-spacing:4px;
+
+margin-bottom:20px;
+
+
+font-weight:700;
+
+
+}
+
+
+
+
+h2{
+
+font-size:45px;
+
+line-height:1.3;
+
+margin-bottom:40px;
+
+}
+
+
+
+
+
+
+/* =========================
+STORY
+========================= */
+
+
+.story{
+
+text-align:center;
+
+}
+
+
+
+.story .text{
+
+
+font-size:18px;
+
+color:#555;
+
+line-height:2;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+MENU
+========================= */
+
+
+.menu{
+
+background:white;
+
+}
+
+
+
+.menu > .container > h2{
+
+margin-bottom:60px;
+
+}
+
+
+
+.menu-grid{
+
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:35px;
+
+
+}
+
+
+
+.menu-card{
+
+
+background:white;
+
+border-radius:25px;
+
+overflow:hidden;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.08);
+
+
+transition:.4s;
+
+
+}
+
+
+
+.menu-card:hover{
+
+
+transform:translateY(-10px);
+
+
+}
+
+
+
+.menu-card img{
+
+height:300px;
+
+object-fit:cover;
+
+object-position:center;
+
+}
+
+
+}
+
+
+
+.menu-card div{
+
+
+padding:30px;
+
+
+}
+
+
+
+.menu-card h3{
+
+
+font-size:28px;
+
+margin-bottom:5px;
+
+
+}
+
+
+
+.menu-card span{
+
+
+font-size:12px;
+
+letter-spacing:3px;
+
+color:var(--green);
+
+
+}
+
+
+
+.menu-card p{
+
+
+margin-top:20px;
+
+color:#666;
+
+
+}
+
+
+
+
+
+
+/* =========================
+TRAVEL
+========================= */
+
+
+.travel{
+
+
+height:500px;
+
+background:
+
+linear-gradient(
+rgba(0,0,0,.45),
+rgba(0,0,0,.65)
+),
+
+url("../images/story.jpg");
+
+
+background-size:cover;
+
+background-position:center;
+
+
+color:white;
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+
+text-align:center;
+
+
+}
+
+
+
+.travel p{
+
+
+letter-spacing:5px;
+
+font-size:18px;
+
+
+}
+
+
+
+.travel h2{
+
+
+font-size:55px;
+
+margin:20px 0;
+
+
+}
+
+
+
+
+
+/* =========================
+LOCATION
+========================= */
+
+
+.location{
+
+text-align:center;
+
+}
+
+
+
+
+
+
+
+footer{
+
+
+background:#222;
+
+color:white;
+
+padding:50px;
+
+text-align:center;
+
+
+}
+
+
+
+footer h3{
+
+
+letter-spacing:4px;
+
+
+}
+
+
+
+
+
+
+/* =========================
+ANIMATION
+========================= */
+
+
+@keyframes fadeUp{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+
+/* =========================
+MOBILE
+========================= */
+
+
+@media(max-width:768px){
+
+
+
+.header{
+
+padding:20px;
+
+}
+
+
+
+.logo{
+
+font-size:22px;
+
+}
+
+
+
+.header nav{
+
+display:none;
+
+}
+
+
+
+.mobile-menu{
+
+display:block;
+
+}
+
+
+
+
+.hero{
+
+
+background-position:center;
+
+
+}
+
+
+
+.hero h1{
+
+
+font-size:45px;
+
+letter-spacing:5px;
+
+
+}
+
+
+
+.hero h2{
+
+
+font-size:20px;
+
+
+}
+
+
+
+.small-title{
+
+
+font-size:11px;
+
+
+}
+
+
+
+.section{
+
+
+padding:80px 20px;
+
+
+}
+
+
+
+h2{
+
+
+font-size:32px;
+
+
+}
+
+
+
+.menu-grid{
+
+
+grid-template-columns:1fr;
+
+
+}
+
+
+
+.menu-card img{
+
+
+height:240px;
+
+
+}
+
+
+
+.travel{
+
+
+height:400px;
+
+
+}
+
+
+
+.travel h2{
+
+
+font-size:38px;
+
+
+}
+
+
+
+}
+/* =========================
+SCROLL EFFECT
+========================= */
+
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(50px);
+
+transition:1s;
+
+}
+
+
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+.logo{
+
+    text-align:center;
+    line-height:0.9;
+
+}
+
+
+.logo span{
+
+    margin-top:8px;
+
+}
+.hero h1{
+
+    font-size:90px;
+    letter-spacing:12px;
+    line-height:1;
+
+}
+
+
+.hero h1::before{
+
+    content:"1100";
+    display:block;
+    font-size:45px;
+    letter-spacing:15px;
+
+}
+.route{
+
+padding:120px 20px;
+
+background:#f7f3ee;
+
+text-align:center;
+
+}
+
+
+.route p{
+
+letter-spacing:5px;
+
+color:#2f5d50;
+
+font-size:13px;
+
+}
+
+
+.route h2{
+
+margin:30px 0;
+
+}
+
+
+
+.route-line{
+
+font-size:20px;
+
+line-height:3;
+
+}
+
+
+
+.route-line strong{
+
+display:block;
+
+font-size:40px;
+
+color:#2f5d50;
+
+}
+.hero{
+
+background-position:center center;
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+background-position:
+55% center;
+
+}
+
+}
+.hero::after{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:
+linear-gradient(
+transparent,
+rgba(0,0,0,.55)
+);
+
+}
+/* =========================
+   HERO SCROLL INDICATOR
+========================= */
+
+.scroll-indicator{
+    position:absolute;
+    left:50%;
+    bottom:35px;
+    transform:translateX(-50%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#fff;
+    z-index:5;
+    letter-spacing:3px;
+    font-size:11px;
+}
+
+.mouse{
+    width:26px;
+    height:42px;
+    border:2px solid rgba(255,255,255,.8);
+    border-radius:20px;
+    margin-top:10px;
+    position:relative;
+}
+
+.wheel{
+    width:4px;
+    height:8px;
+    background:#fff;
+    border-radius:3px;
+    position:absolute;
+    left:50%;
+    top:8px;
+    transform:translateX(-50%);
+    animation:wheelMove 1.8s infinite;
+}
+
+@keyframes wheelMove{
+
+0%{
+opacity:1;
+top:8px;
+}
+
+100%{
+opacity:0;
+top:22px;
+}
+
+}
+
+.button{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,.25);
+
+}
+.hero{
+
+position:relative;
+
+height:100vh;
+
+background:url("images/hero.jpg") center center/cover no-repeat;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+overflow:hidden;
+
+}
+
+.hero-overlay{
+
+position:absolute;
+
+inset:0;
+
+background:linear-gradient(
+to top,
+rgba(0,0,0,.65),
+rgba(0,0,0,.2)
+);
+
+}
+
+.hero-content{
+
+position:relative;
+
+z-index:5;
+
+text-align:center;
+
+color:white;
+
+padding:20px;
+
+}
+
+.hero-subtitle{
+
+letter-spacing:6px;
+
+font-size:13px;
+
+opacity:.8;
+
+}
+
+.hero h1{
+
+font-size:92px;
+
+font-weight:300;
+
+line-height:0.9;
+
+margin:25px 0;
+
+letter-spacing:4px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+line-height:1.8;
+
+margin-bottom:45px;
+
+}
+
+.hero-btn{
+
+display:inline-block;
+
+padding:18px 42px;
+
+border:1px solid rgba(255,255,255,.4);
+
+backdrop-filter:blur(14px);
+
+background:rgba(255,255,255,.08);
+
+color:white;
+
+text-decoration:none;
+
+border-radius:60px;
+
+transition:.4s;
+
+}
+
+.hero-btn:hover{
+
+background:white;
+
+color:#333;
+
+}
+.hero-fog{
+
+position:absolute;
+
+inset:-20%;
+
+background:url("images/fog.png");
+
+opacity:.18;
+
+animation:fogMove 60s linear infinite;
+
+}
+
+@keyframes fogMove{
+
+0%{
+
+transform:translateX(-8%);
+
+}
+
+100%{
+
+transform:translateX(8%);
+
+}
+
+}
