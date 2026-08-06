@@ -1,5 +1,1 @@
-*{box-sizing:border-box}body{margin:0;font-family:'Noto Sans KR',sans-serif;color:#222}
-.header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;padding:20px;color:#fff;z-index:2}
-.hero{height:100vh;background:url('images/hero.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;position:relative}
-.overlay{position:absolute;inset:0;background:rgba(0,0,0,.45)}.content{position:relative;color:#fff;text-align:center}.btn{color:#fff;border:1px solid #fff;padding:12px 24px;text-decoration:none}
-section{padding:80px 20px;max-width:1000px;margin:auto}
+
