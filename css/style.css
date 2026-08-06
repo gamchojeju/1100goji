@@ -807,14 +807,6 @@ transform:translateY(0);
 }
 
 
-.hero h1::before{
-
-    content:"1100";
-    display:block;
-    font-size:45px;
-    letter-spacing:15px;
-
-}
 .route{
 
 padding:120px 20px;
