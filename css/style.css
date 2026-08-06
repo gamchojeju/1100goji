@@ -781,8 +781,8 @@ background-position:center center;
 
 .hero{
 
-background-position:
-55% center;
+background-size:cover;
+background-position:55% center;
 
 }
 
