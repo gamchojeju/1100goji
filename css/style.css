@@ -1382,7 +1382,12 @@ MENU IMAGE EFFECT
     display:none;
     font-size:30px;
     cursor:pointer;
-    color:#2f5d50;
+    color:#ffffff;
+
+    background:none;
+    border:none;
+    padding:0;
+
     z-index:1001;
 }
 
