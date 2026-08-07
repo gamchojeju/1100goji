@@ -1321,12 +1321,16 @@ MENU IMAGE EFFECT
     transition:.45s ease;
 
     z-index:999;
+   opacity:0;
+    visibility:hidden;
 
 }
 
 .mobile-nav.active{
 
     right:0;
+   opacity:1;
+    visibility:visible;
 
 }
 
