@@ -87,3 +87,31 @@ window.addEventListener("scroll",()=>{
     }
 
 });
+
+const mobileBtn = document.querySelector(".mobile-menu");
+
+const mobileNav = document.querySelector(".mobile-nav");
+
+const closeBtn = document.querySelector(".close-menu");
+
+mobileBtn.addEventListener("click",()=>{
+
+    mobileNav.classList.add("active");
+
+});
+
+closeBtn.addEventListener("click",()=>{
+
+    mobileNav.classList.remove("active");
+
+});
+
+document.querySelectorAll(".mobile-nav a").forEach(link=>{
+
+    link.addEventListener("click",()=>{
+
+        mobileNav.classList.remove("active");
+
+    });
+
+});
