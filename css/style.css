@@ -1268,3 +1268,27 @@ MENU IMAGE EFFECT
     }
 
 }
+
+/* =========================
+   HEADER SCROLL
+========================= */
+
+.header.scrolled{
+
+    background:rgba(255,255,255,.96);
+
+    color:#222;
+
+    box-shadow:0 6px 30px rgba(0,0,0,.08);
+
+    backdrop-filter:blur(14px);
+
+    transition:.35s;
+
+}
+
+.header.scrolled a{
+
+    color:#222;
+
+}
