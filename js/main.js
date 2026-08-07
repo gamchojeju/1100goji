@@ -88,30 +88,39 @@ window.addEventListener("scroll",()=>{
 
 });
 
+/* =========================
+   MOBILE MENU
+========================= */
+
 const mobileBtn = document.querySelector(".mobile-menu");
-
 const mobileNav = document.querySelector(".mobile-nav");
-
 const closeBtn = document.querySelector(".close-menu");
 
-mobileBtn.addEventListener("click",()=>{
+if(mobileBtn && mobileNav && closeBtn){
 
-    mobileNav.classList.add("active");
+    mobileBtn.addEventListener("click",()=>{
 
-});
-
-closeBtn.addEventListener("click",()=>{
-
-    mobileNav.classList.remove("active");
-
-});
-
-document.querySelectorAll(".mobile-nav a").forEach(link=>{
-
-    link.addEventListener("click",()=>{
-
-        mobileNav.classList.remove("active");
+        mobileNav.classList.add("active");
+        document.body.style.overflow="hidden";
 
     });
 
-});
+    closeBtn.addEventListener("click",()=>{
+
+        mobileNav.classList.remove("active");
+        document.body.style.overflow="";
+
+    });
+
+    document.querySelectorAll(".mobile-nav a").forEach(link=>{
+
+        link.addEventListener("click",()=>{
+
+            mobileNav.classList.remove("active");
+            document.body.style.overflow="";
+
+        });
+
+    });
+
+}
