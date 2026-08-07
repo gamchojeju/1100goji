@@ -652,10 +652,8 @@ font-size:22px;
 
 
 
-.header nav{
-
-display:none;
-
+.header > nav{
+    display:none;
 }
 
 
