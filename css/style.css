@@ -1778,3 +1778,177 @@ MENU IMAGE EFFECT
     }
 
 }
+
+/* =========================
+   ALL MENU - SCREEN
+========================= */
+
+.all-menu{
+
+    position:fixed;
+
+    inset:0;
+
+    width:100%;
+    height:100vh;
+    height:100dvh;
+
+    background:rgba(247,243,238,.98);
+
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
+
+    z-index:20000;
+
+    overflow-y:auto;
+    overflow-x:hidden;
+
+    opacity:0;
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:
+        opacity .35s ease,
+        visibility .35s ease,
+        transform .35s ease;
+}
+
+
+/* OPEN */
+
+.all-menu.active{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+}
+
+
+/* =========================
+   ALL MENU INNER
+========================= */
+
+.all-menu-inner{
+
+    position:relative;
+
+    width:100%;
+    max-width:1000px;
+
+    margin:0 auto;
+
+    padding:110px 30px 80px;
+
+    text-align:center;
+}
+
+
+/* =========================
+   CLOSE BUTTON
+========================= */
+
+.all-menu-close{
+
+    position:absolute;
+
+    top:25px;
+    right:15px;
+
+    width:52px;
+    height:52px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    border:none;
+
+    background:transparent;
+
+    color:#2f5d50;
+
+    font-size:42px;
+
+    font-weight:300;
+
+    cursor:pointer;
+
+    z-index:20001;
+
+    transition:
+        transform .3s ease,
+        color .3s ease;
+}
+
+
+.all-menu-close:hover{
+
+    transform:rotate(90deg);
+
+    color:#1f4037;
+}
+
+
+/* =========================
+   ALL MENU TITLE
+========================= */
+
+.all-menu-inner .label{
+
+    margin-bottom:20px;
+
+}
+
+
+.all-menu-inner h2{
+
+    margin-bottom:55px;
+
+    font-size:48px;
+
+    line-height:1.35;
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .all-menu-inner{
+
+        padding:90px 20px 60px;
+
+    }
+
+
+    .all-menu-inner h2{
+
+        font-size:32px;
+
+        margin-bottom:35px;
+
+    }
+
+
+    .all-menu-close{
+
+        top:15px;
+
+        right:10px;
+
+        width:48px;
+
+        height:48px;
+
+        font-size:36px;
+
+    }
+
+}
