@@ -98,26 +98,43 @@ const closeBtn = document.querySelector(".close-menu");
 
 if(mobileBtn && mobileNav && closeBtn){
 
+    /* OPEN */
+
     mobileBtn.addEventListener("click",()=>{
 
         mobileNav.classList.add("active");
-        document.body.style.overflow="hidden";
+
+        document.body.classList.add("menu-open");
+
+        document.body.style.overflow = "hidden";
 
     });
+
+
+    /* CLOSE */
 
     closeBtn.addEventListener("click",()=>{
 
         mobileNav.classList.remove("active");
-        document.body.style.overflow="";
+
+        document.body.classList.remove("menu-open");
+
+        document.body.style.overflow = "";
 
     });
+
+
+    /* MENU LINK */
 
     document.querySelectorAll(".mobile-nav a").forEach(link=>{
 
         link.addEventListener("click",()=>{
 
             mobileNav.classList.remove("active");
-            document.body.style.overflow="";
+
+            document.body.classList.remove("menu-open");
+
+            document.body.style.overflow = "";
 
         });
 
