@@ -1627,3 +1627,230 @@ MENU IMAGE EFFECT
     }
 
 }
+
+/* =========================
+   ALL MENU
+========================= */
+
+.all-menu{
+
+    position:fixed;
+
+    inset:0;
+
+    width:100%;
+    height:100vh;
+    height:100dvh;
+
+    background:rgba(247,243,238,.98);
+
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
+
+    z-index:10000;
+
+    overflow-y:auto;
+
+    opacity:0;
+    visibility:hidden;
+
+    transform:translateY(30px);
+
+    transition:
+        opacity .4s ease,
+        visibility .4s ease,
+        transform .4s ease;
+}
+
+
+.all-menu.active{
+
+    opacity:1;
+    visibility:visible;
+
+    transform:translateY(0);
+}
+
+
+.all-menu-inner{
+
+    position:relative;
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    padding:120px 30px 100px;
+
+    text-align:center;
+}
+
+
+.all-menu-inner h2{
+
+    margin-bottom:60px;
+
+    font-size:48px;
+
+    line-height:1.35;
+
+}
+
+
+.all-menu-close{
+
+    position:absolute;
+
+    top:30px;
+    right:20px;
+
+    width:52px;
+    height:52px;
+
+    border:none;
+
+    background:none;
+
+    font-size:42px;
+
+    font-weight:300;
+
+    color:#2f5d50;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+
+.all-menu-close:hover{
+
+    transform:rotate(90deg);
+
+}
+
+
+.all-menu-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+    text-align:left;
+}
+
+
+.all-menu-item{
+
+    padding:30px;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+    transition:.3s;
+}
+
+
+.all-menu-item:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+.all-menu-item strong{
+
+    display:block;
+
+    font-size:25px;
+
+    color:#222;
+
+    margin-bottom:5px;
+}
+
+
+.all-menu-item span{
+
+    display:block;
+
+    font-size:10px;
+
+    letter-spacing:3px;
+
+    color:#2f5d50;
+
+    margin-bottom:15px;
+}
+
+
+.all-menu-item p{
+
+    color:#666;
+
+    line-height:1.7;
+
+    font-size:14px;
+}
+
+
+/* =========================
+   ALL MENU MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .all-menu-inner{
+
+        padding:100px 20px 70px;
+
+    }
+
+
+    .all-menu-inner h2{
+
+        font-size:32px;
+
+        margin-bottom:40px;
+
+    }
+
+
+    .all-menu-list{
+
+        grid-template-columns:1fr;
+
+        gap:15px;
+
+    }
+
+
+    .all-menu-item{
+
+        padding:24px;
+
+    }
+
+
+    .all-menu-item strong{
+
+        font-size:22px;
+
+    }
+
+
+    .all-menu-close{
+
+        top:18px;
+        right:12px;
+
+        font-size:36px;
+
+    }
+
+}
