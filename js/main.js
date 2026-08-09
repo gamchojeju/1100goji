@@ -141,3 +141,32 @@ if(mobileBtn && mobileNav && closeBtn){
     });
 
 }
+
+/* =========================
+   ALL MENU
+========================= */
+
+const menuMoreBtn = document.querySelector("#menuMoreBtn");
+const allMenu = document.querySelector("#allMenu");
+const allMenuClose = document.querySelector("#allMenuClose");
+
+if(menuMoreBtn && allMenu && allMenuClose){
+
+    menuMoreBtn.addEventListener("click",()=>{
+
+        allMenu.classList.add("active");
+
+        document.body.style.overflow="hidden";
+
+    });
+
+
+    allMenuClose.addEventListener("click",()=>{
+
+        allMenu.classList.remove("active");
+
+        document.body.style.overflow="";
+
+    });
+
+}
