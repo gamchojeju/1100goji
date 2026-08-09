@@ -1395,7 +1395,7 @@ MENU IMAGE EFFECT
 
 @media (max-width:768px){
 
-    .header nav{
+    .header > nav{
         display:none;
     }
 
