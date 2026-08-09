@@ -1295,18 +1295,18 @@ MENU IMAGE EFFECT
 ========================= */
 
 .mobile-nav{
-
     position:fixed;
 
-    top:0;
-    right:-100%;
+    inset:0;
 
     width:100%;
     height:100vh;
+    height:100dvh;
 
     background:rgba(247,243,238,.97);
 
     backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
 
     display:flex;
 
@@ -1316,14 +1316,237 @@ MENU IMAGE EFFECT
 
     align-items:center;
 
-    transition:.45s ease;
+    overflow-y:auto;
+    overflow-x:hidden;
 
-    z-index:999;
-   opacity:0;
+    z-index:9999;
+
+    opacity:0;
     visibility:hidden;
+
+    transform:translateX(100%);
+
+    transition:
+        opacity .4s ease,
+        visibility .4s ease,
+        transform .5s cubic-bezier(.77,0,.18,1);
+}
+
+
+/* 메뉴 OPEN */
+
+.mobile-nav.active{
+
+    opacity:1;
+    visibility:visible;
+
+    transform:translateX(0);
+}
+
+
+/* =========================
+   MOBILE NAV LIST
+========================= */
+
+.mobile-nav nav{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+    text-align:center;
+}
+
+
+/* 메뉴 링크 */
+
+.mobile-nav a{
+
+    display:block;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    color:#2f5d50;
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    transition:
+        opacity .5s ease,
+        transform .5s ease,
+        color .3s ease;
+}
+
+
+/* 메뉴가 열리면 순서대로 등장 */
+
+.mobile-nav.active a{
+
+    opacity:1;
+
+    transform:translateY(0);
+}
+
+
+/* 순차 애니메이션 */
+
+.mobile-nav.active a:nth-child(1){
+    transition-delay:.10s;
+}
+
+.mobile-nav.active a:nth-child(2){
+    transition-delay:.16s;
+}
+
+.mobile-nav.active a:nth-child(3){
+    transition-delay:.22s;
+}
+
+.mobile-nav.active a:nth-child(4){
+    transition-delay:.28s;
+}
+
+
+/* 메뉴 터치/호버 */
+
+.mobile-nav a:hover{
+
+    color:#1f4037;
+
+    transform:scale(1.04);
+}
+
+
+/* =========================
+   CLOSE BUTTON
+========================= */
+
+.close-menu{
+
+    position:absolute;
+
+    top:25px;
+    right:25px;
+
+    width:52px;
+    height:52px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    font-size:38px;
+
+    font-weight:300;
+
+    border:none;
+
+    background:transparent;
+
+    cursor:pointer;
+
+    color:#2f5d50;
+
+    z-index:10000;
+
+    transition:
+        transform .3s ease,
+        color .3s ease;
+}
+
+
+.close-menu:hover{
+
+    transform:rotate(90deg);
+
+    color:#1f4037;
+}
+
+
+/* =========================
+   MOBILE HEADER BUTTON
+========================= */
+
+.mobile-menu{
+
+    display:none;
+
+    font-size:30px;
+
+    line-height:1;
+
+    cursor:pointer;
+
+    color:#ffffff;
+
+    background:none;
+
+    border:none;
+
+    padding:0;
+
+    z-index:10001;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .header nav{
+        display:none;
+    }
+
+    .mobile-menu{
+        display:block;
+    }
 
 }
 
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:480px){
+
+    .mobile-nav nav{
+
+        gap:26px;
+
+    }
+
+    .mobile-nav a{
+
+        font-size:24px;
+
+        letter-spacing:3px;
+
+    }
+
+    .close-menu{
+
+        top:20px;
+        right:18px;
+
+        width:48px;
+        height:48px;
+
+        font-size:34px;
+
+    }
+
+}
 .mobile-nav.active{
 
     right:0;
