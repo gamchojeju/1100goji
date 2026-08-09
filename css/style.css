@@ -1952,3 +1952,278 @@ MENU IMAGE EFFECT
     }
 
 }
+
+/* =========================
+   1100 GOJI
+   ALL MENU DETAIL
+========================= */
+
+.all-menu-list{
+    width:100%;
+    max-width:900px;
+
+    margin:0 auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+
+    gap:24px;
+}
+
+
+/* =========================
+   MENU CARD
+========================= */
+
+.all-menu-item{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:0;
+
+    background:#fff;
+
+    border:1px solid rgba(47,93,80,.08);
+
+    border-radius:22px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.045);
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+}
+
+
+.all-menu-item:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+        0 18px 40px rgba(0,0,0,.09);
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.all-menu-image{
+
+    position:relative;
+
+    width:100%;
+
+    aspect-ratio:4 / 3;
+
+    overflow:hidden;
+
+    background:#e9e3da;
+}
+
+
+.all-menu-image::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0,0,0,.12),
+            transparent 35%
+        );
+
+    pointer-events:none;
+}
+
+
+.all-menu-image img{
+
+    width:100%;
+    height:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+    transition:
+        transform .7s cubic-bezier(.2,.7,.2,1);
+}
+
+
+.all-menu-item:hover
+.all-menu-image img{
+
+    transform:scale(1.06);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.all-menu-content{
+
+    padding:25px 26px 27px;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.all-menu-title{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    justify-content:space-between;
+
+    gap:20px;
+
+    margin-bottom:14px;
+}
+
+
+.all-menu-title strong{
+
+    display:block;
+
+    color:#222;
+
+    font-size:24px;
+
+    font-weight:600;
+
+    line-height:1.3;
+}
+
+
+.all-menu-title span{
+
+    display:block;
+
+    margin-top:5px;
+
+    color:#2f5d50;
+
+    font-size:9px;
+
+    font-weight:500;
+
+    letter-spacing:2.5px;
+
+    line-height:1.4;
+}
+
+
+/* =========================
+   PRICE
+========================= */
+
+.menu-price{
+
+    flex-shrink:0;
+
+    padding-top:3px;
+
+    color:#2f5d50;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    letter-spacing:.5px;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.all-menu-content p{
+
+    margin:0;
+
+    color:#777;
+
+    font-size:13px;
+
+    font-weight:400;
+
+    line-height:1.75;
+
+    word-break:keep-all;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .all-menu-list{
+
+        grid-template-columns:1fr;
+
+        gap:18px;
+
+    }
+
+
+    .all-menu-image{
+
+        aspect-ratio:16 / 10;
+
+    }
+
+
+    .all-menu-content{
+
+        padding:21px 21px 23px;
+
+    }
+
+
+    .all-menu-title strong{
+
+        font-size:21px;
+
+    }
+
+
+    .all-menu-title span{
+
+        font-size:8px;
+
+        letter-spacing:2px;
+
+    }
+
+
+    .menu-price{
+
+        font-size:14px;
+
+    }
+
+
+    .all-menu-content p{
+
+        font-size:13px;
+
+        line-height:1.7;
+
+    }
+
+}
