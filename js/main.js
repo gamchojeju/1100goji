@@ -146,26 +146,28 @@ if(mobileBtn && mobileNav && closeBtn){
    ALL MENU
 ========================= */
 
-const menuMoreBtn = document.querySelector("#menuMoreBtn");
+const menuMoreBtn = document.querySelector(".menu-more");
 const allMenu = document.querySelector("#allMenu");
 const allMenuClose = document.querySelector("#allMenuClose");
 
-if(menuMoreBtn && allMenu && allMenuClose){
+if (menuMoreBtn && allMenu && allMenuClose) {
 
-    menuMoreBtn.addEventListener("click",()=>{
+    menuMoreBtn.addEventListener("click", function(e) {
+
+        e.preventDefault();
 
         allMenu.classList.add("active");
 
-        document.body.style.overflow="hidden";
+        document.body.style.overflow = "hidden";
 
     });
 
 
-    allMenuClose.addEventListener("click",()=>{
+    allMenuClose.addEventListener("click", function() {
 
         allMenu.classList.remove("active");
 
-        document.body.style.overflow="";
+        document.body.style.overflow = "";
 
     });
 
