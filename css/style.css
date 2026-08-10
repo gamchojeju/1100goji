@@ -3067,3 +3067,18 @@ footer::before{
     }
 
 }
+
+/* =========================
+   MOBILE HERO IMAGE FIX
+========================= */
+
+@media (max-width:768px){
+
+    .hero{
+        min-height:100svh;
+        background-size:cover;
+        background-position:center center;
+        animation:none;
+    }
+
+}
