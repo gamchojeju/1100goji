@@ -479,53 +479,227 @@ object-fit:cover;
 
 
 /* =========================
-JEJU MOMENT
+   JEJU MOMENT
+   1100 GOJI TRAVEL EDITION
 ========================= */
 
 .moment{
+    position:relative;
 
-    background:#fdfbf8;
+    background:
+        linear-gradient(
+            180deg,
+            #f7f3ee 0%,
+            #ffffff 100%
+        );
+
     text-align:center;
 
+    overflow:hidden;
 }
 
-.moment .container{
 
-    max-width:900px;
+/* 작은 라벨 */
 
+.moment .label{
+
+    margin-bottom:24px;
+
+    color:#2f5d50;
+
+    font-size:10px;
+
+    font-weight:600;
+
+    letter-spacing:4px;
 }
+
+
+/* 사진 */
 
 .moment-image{
 
-    width:100%;
-    border-radius:28px;
+    display:block;
 
-    margin-bottom:60px;
+    width:100%;
+
+    max-width:1100px;
+
+    height:560px;
+
+    margin:0 auto 65px;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    border-radius:30px;
 
     box-shadow:
-    0 25px 60px rgba(0,0,0,.12);
+        0 25px 70px rgba(0,0,0,.12);
 
-    transition:.6s;
-
+    transition:
+        transform 1.2s cubic-bezier(.2,.7,.2,1);
 }
+
+
+/* 사진에 마우스를 올리면 아주 천천히 */
 
 .moment-image:hover{
 
-    transform:scale(1.02);
+    transform:scale(1.015);
 
 }
+
+
+/* 제목 */
 
 .moment h2{
 
-    margin-bottom:30px;
+    margin:0 auto 32px;
+
+    color:#222;
+
+    font-size:42px;
+
+    font-weight:500;
+
+    line-height:1.45;
+
+    letter-spacing:-1.5px;
 
 }
 
+
+/* 설명 */
+
 .moment-text{
 
-    font-size:20px;
-    line-height:2;
+    margin:0 auto;
+
+    max-width:620px;
+
     color:#666;
+
+    font-size:17px;
+
+    font-weight:400;
+
+    line-height:2.05;
+
+    word-break:keep-all;
+
+}
+
+
+/* =========================
+   DECORATIVE LINE
+========================= */
+
+.moment::after{
+
+    content:"";
+
+    display:block;
+
+    width:1px;
+
+    height:70px;
+
+    margin:70px auto 0;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(47,93,80,.5),
+            transparent
+        );
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .moment{
+
+        padding-left:0;
+        padding-right:0;
+
+    }
+
+
+    .moment .container{
+
+        width:100%;
+
+    }
+
+
+    .moment .label{
+
+        margin-bottom:18px;
+
+        font-size:9px;
+
+        letter-spacing:3px;
+
+    }
+
+
+    .moment-image{
+
+        width:calc(100% - 32px);
+
+        height:390px;
+
+        margin:
+            0 auto 42px;
+
+        border-radius:20px;
+
+        box-shadow:
+            0 15px 40px rgba(0,0,0,.10);
+
+    }
+
+
+    .moment h2{
+
+        padding:0 20px;
+
+        font-size:29px;
+
+        line-height:1.5;
+
+        letter-spacing:-1px;
+
+        margin-bottom:25px;
+
+    }
+
+
+    .moment-text{
+
+        padding:0 25px;
+
+        font-size:15px;
+
+        line-height:1.95;
+
+    }
+
+
+    .moment::after{
+
+        height:55px;
+
+        margin-top:55px;
+
+    }
 
 }
 
