@@ -3082,3 +3082,53 @@ footer::before{
     }
 
 }
+
+/* =========================
+   MOBILE JEJU MENU CENTER
+========================= */
+
+@media (max-width:768px){
+
+    /* JEJU MENU 제목 */
+
+    .menu > .container{
+        text-align:center;
+    }
+
+    .menu > .container > .label{
+        text-align:center;
+    }
+
+    .menu > .container > h2{
+        text-align:center;
+    }
+
+
+    /* 메뉴 카드 텍스트 */
+
+    .menu-card > div:not(.menu-image){
+        text-align:center;
+    }
+
+    .menu-card h3{
+        text-align:center;
+    }
+
+    .menu-card span{
+        display:block;
+        text-align:center;
+    }
+
+    .menu-card p{
+        text-align:center;
+    }
+
+
+    /* 전체 메뉴 보기 */
+
+    .menu-more{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
