@@ -3132,3 +3132,22 @@ footer::before{
     }
 
 }
+/* =========================
+   MOBILE MENU MORE CENTER
+========================= */
+
+@media (max-width:768px){
+
+    .menu-more{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        width:fit-content;
+
+        margin:30px auto 0;
+
+        text-align:center;
+    }
+
+}
