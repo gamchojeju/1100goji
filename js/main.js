@@ -172,3 +172,83 @@ if (menuMoreBtn && allMenu && allMenuClose) {
     });
 
 }
+
+/* =========================
+   LANGUAGE SWITCHER
+========================= */
+
+const languageButtons =
+    document.querySelectorAll(".language-switcher button");
+
+
+const translations = {
+
+    ko: {
+        htmlLang: "ko"
+    },
+
+    en: {
+        htmlLang: "en"
+    },
+
+    zh: {
+        htmlLang: "zh-CN"
+    },
+
+    ja: {
+        htmlLang: "ja"
+    }
+
+};
+
+
+function setLanguage(lang){
+
+    if(!translations[lang]) return;
+
+    document.documentElement.lang =
+        translations[lang].htmlLang;
+
+
+    languageButtons.forEach(button => {
+
+        button.classList.toggle(
+            "active",
+            button.dataset.lang === lang
+        );
+
+    });
+
+
+    localStorage.setItem(
+        "1100goji-language",
+        lang
+    );
+
+}
+
+
+languageButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        setLanguage(
+            button.dataset.lang
+        );
+
+    });
+
+});
+
+
+/* =========================
+   DEFAULT LANGUAGE
+========================= */
+
+const savedLanguage =
+    localStorage.getItem("1100goji-language");
+
+
+setLanguage(
+    savedLanguage || "ko"
+);
