@@ -201,6 +201,10 @@ const translations = {
         menuTitle: "제주를 담은 한 그릇",
         menuMore: "전체 메뉴 보기",
 
+        menu1Name: "고기국수",
+menu1En: "JEJU NOODLE",
+menu1Desc: "제주 돼지고기의 깊은 맛과 따뜻한 육수",
+
         storyLabel: "OUR STORY",
         storyTitle: "제주의 맛을,<br>가장 제주답게",
 
@@ -230,6 +234,10 @@ const translations = {
         menuLabel: "JEJU MENU",
         menuTitle: "A Bowl Filled with Jeju",
         menuMore: "VIEW FULL MENU",
+
+        menu1Name: "JEJU PORK NOODLES",
+menu1En: "JEJU NOODLE",
+menu1Desc: "A warm bowl of noodles with the rich flavor of Jeju pork",
 
         storyLabel: "OUR STORY",
         storyTitle: "The Taste of Jeju,<br>Just as Jeju Intended",
@@ -261,6 +269,10 @@ const translations = {
         menuTitle: "一碗济州风味",
         menuMore: "查看完整菜单",
 
+        menu1Name: "济州猪肉面",
+menu1En: "JEJU NOODLE",
+menu1Desc: "一碗温暖的面汤，融入济州猪肉浓郁的鲜香",
+
         storyLabel: "我们的故事",
         storyTitle: "济州的味道，<br>以最济州的方式",
 
@@ -290,6 +302,10 @@ const translations = {
         menuLabel: "済州 MENU",
         menuTitle: "済州を味わう一杯",
         menuMore: "メニューを見る",
+
+        menu1Name: "済州ポークヌードル",
+menu1En: "JEJU NOODLE",
+menu1Desc: "済州豚の旨みを味わえる、あたたかな一杯",
 
         storyLabel: "OUR STORY",
         storyTitle: "済州の味を、<br>もっと済州らしく",
