@@ -35,15 +35,15 @@
 
 <nav>
 
-<a href="#menu">
+<a href="#menu" data-i18n="menu">
 MENU
 </a>
 
-<a href="#story">
+<a href="#story" data-i18n="story">
 STORY
 </a>
 
-<a href="#location">
+<a href="#location" data-i18n="location">
 LOCATION
 </a>
 
@@ -67,17 +67,22 @@ LOCATION
         ×
     </button>
 
-    <nav>
+    
+        <nav>
 
-        <a href="#menu">MENU</a>
+    <a href="#menu" data-i18n="menu">MENU</a>
 
-        <a href="#story">STORY</a>
+    <a href="#story" data-i18n="story">STORY</a>
 
-        <a href="#moment">JEJU MOMENT</a>
+    <a href="#moment" data-i18n="momentLabel">
+        JEJU MOMENT
+    </a>
 
-        <a href="#location">LOCATION</a>
+    <a href="#location" data-i18n="location">LOCATION</a>
 
-    </nav>
+</nav>
+
+    
 
 </div>
 
@@ -100,23 +105,20 @@ LOCATION
 A TASTE ABOVE JEJU
 </p>
 
-
 <h1>
 1100 GOJI
 </h1>
 
-
-<h2>
+<h2 data-i18n="heroTitle">
 한라산을 닮은 제주,<br>
 여행자의 한 끼가 되다
 </h2>
 
-
-
-<a href="#menu" class="button">
+<a href="#menu"
+   class="button"
+   data-i18n="heroButton">
 MENU VIEW
 </a>
-
 
 </div>
 
@@ -185,12 +187,11 @@ JEJU STORY
 <div class="container">
 
 
-<p class="label">
+<p class="label" data-i18n="menuLabel">
 JEJU MENU
 </p>
 
-
-<h2>
+<h2 data-i18n="menuTitle">
 제주를 담은 한 그릇
 </h2>
 
@@ -286,7 +287,12 @@ JEJU MENU
 
 </div>
 
-<button class="menu-more" type="button" id="menuMoreBtn">
+<button
+    class="menu-more"
+    type="button"
+    id="menuMoreBtn"
+    data-i18n="menuMore"
+>
     전체 메뉴 보기
 </button>
 
