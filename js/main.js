@@ -360,3 +360,89 @@ const savedLanguage =
 setLanguage(
     savedLanguage || "ko"
 );
+/* =========================
+   APPLY TRANSLATION
+========================= */
+
+function applyTranslations(lang){
+
+    const elements =
+        document.querySelectorAll("[data-i18n]");
+
+
+    elements.forEach(element => {
+
+        const key =
+            element.dataset.i18n;
+
+
+        if(
+            translations[lang] &&
+            translations[lang][key]
+        ){
+
+            element.innerHTML =
+                translations[lang][key];
+
+        }
+
+    });
+
+}
+
+/* =========================
+   UPDATE LANGUAGE FUNCTION
+========================= */
+
+function setLanguage(lang){
+
+    if(!translations[lang]) return;
+
+    document.documentElement.lang =
+        translations[lang].htmlLang || lang;
+
+
+    languageButtons.forEach(button => {
+
+        button.classList.toggle(
+            "active",
+            button.dataset.lang === lang
+        );
+
+    });
+
+
+    applyTranslations(lang);
+
+
+    localStorage.setItem(
+        "1100goji-language",
+        lang
+    );
+
+
+}
+languageButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        setLanguage(
+            button.dataset.lang
+        );
+
+    });
+
+});
+
+
+
+/* =========================
+   INITIAL LANGUAGE
+========================= */
+
+const currentLanguage =
+    localStorage.getItem(
+        "1100goji-language"
+    ) || "ko";
+
+setLanguage(currentLanguage);
