@@ -3152,3 +3152,75 @@ footer::before{
     }
 
 }
+
+/* =========================
+   LANGUAGE SWITCHER
+========================= */
+
+.language-switcher{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-left:auto;
+    margin-right:25px;
+}
+
+.language-switcher button{
+    border:none;
+    background:transparent;
+    color:white;
+
+    padding:5px 3px;
+
+    font-family:inherit;
+    font-size:11px;
+    font-weight:500;
+
+    letter-spacing:1px;
+
+    cursor:pointer;
+
+    opacity:.65;
+
+    transition:
+        opacity .3s ease,
+        color .3s ease,
+        transform .3s ease;
+}
+
+.language-switcher button:hover{
+    opacity:1;
+    transform:translateY(-1px);
+}
+
+.language-switcher button.active{
+    opacity:1;
+    font-weight:700;
+}
+
+
+/* =========================
+   MOBILE LANGUAGE
+========================= */
+
+@media(max-width:768px){
+
+    .language-switcher{
+        position:absolute;
+
+        right:65px;
+        top:50%;
+
+        transform:translateY(-50%);
+
+        margin:0;
+
+        gap:5px;
+    }
+
+    .language-switcher button{
+        font-size:9px;
+        padding:4px 2px;
+    }
+
+}
