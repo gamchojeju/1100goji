@@ -194,6 +194,7 @@ const translations = {
         location: "LOCATION",
 
         heroTitle: "제주의 맛을 담다",
+        heroButton: "MENU VIEW",
         heroDesc: "한라산의 바람과 제주 돼지고기의 깊은 맛",
 
         menuLabel: "JEJU MENU",
@@ -223,6 +224,7 @@ const translations = {
         location: "LOCATION",
 
         heroTitle: "A Taste of Jeju",
+        heroButton: "MENU VIEW",
         heroDesc: "The breeze of Hallasan and the rich flavor of Jeju pork",
 
         menuLabel: "JEJU MENU",
@@ -252,6 +254,7 @@ const translations = {
         location: "位置",
 
         heroTitle: "品味济州",
+        heroButton: "查看菜单",
         heroDesc: "汉拿山的风，与济州猪肉浓郁的风味",
 
         menuLabel: "济州菜单",
@@ -281,6 +284,7 @@ const translations = {
         location: "アクセス",
 
         heroTitle: "済州の味を楽しむ",
+        heroButton: "メニューを見る",
         heroDesc: "漢拏山の風と、済州豚の深い旨み",
 
         menuLabel: "済州 MENU",
