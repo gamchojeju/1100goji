@@ -181,22 +181,126 @@ const languageButtons =
     document.querySelectorAll(".language-switcher button");
 
 
+/* =========================
+   1100 GOJI
+   MULTI LANGUAGE - STEP 2
+========================= */
+
 const translations = {
 
     ko: {
-        htmlLang: "ko"
+        menu: "MENU",
+        story: "STORY",
+        location: "LOCATION",
+
+        heroTitle: "제주의 맛을 담다",
+        heroDesc: "한라산의 바람과 제주 돼지고기의 깊은 맛",
+
+        menuLabel: "JEJU MENU",
+        menuTitle: "제주를 담은 한 그릇",
+        menuMore: "전체 메뉴 보기",
+
+        storyLabel: "OUR STORY",
+        storyTitle: "제주의 맛을,<br>가장 제주답게",
+
+        momentLabel: "JEJU MOMENT",
+
+        routeLabel: "JEJU ROUTE",
+        routeTitle: "한라산의 바람을 지나,<br>제주의 맛을 만나다",
+
+        locationLabel: "LOCATION",
+        locationTitle: "제주 여행의 시작,<br>1100 GOJI에서",
+
+        closingTitle: "제주에서 만난<br>따뜻한 한 끼",
+
+        footer: "JEJU · KOREA"
     },
+
 
     en: {
-        htmlLang: "en"
+        menu: "MENU",
+        story: "STORY",
+        location: "LOCATION",
+
+        heroTitle: "A Taste of Jeju",
+        heroDesc: "The breeze of Hallasan and the rich flavor of Jeju pork",
+
+        menuLabel: "JEJU MENU",
+        menuTitle: "A Bowl Filled with Jeju",
+        menuMore: "VIEW FULL MENU",
+
+        storyLabel: "OUR STORY",
+        storyTitle: "The Taste of Jeju,<br>Just as Jeju Intended",
+
+        momentLabel: "JEJU MOMENT",
+
+        routeLabel: "JEJU ROUTE",
+        routeTitle: "Beyond the Breeze of Hallasan,<br>Discover the Taste of Jeju",
+
+        locationLabel: "LOCATION",
+        locationTitle: "Start Your Jeju Journey<br>at 1100 GOJI",
+
+        closingTitle: "A Warm Meal<br>Found in Jeju",
+
+        footer: "JEJU · KOREA"
     },
+
 
     zh: {
-        htmlLang: "zh-CN"
+        menu: "菜单",
+        story: "故事",
+        location: "位置",
+
+        heroTitle: "品味济州",
+        heroDesc: "汉拿山的风，与济州猪肉浓郁的风味",
+
+        menuLabel: "济州菜单",
+        menuTitle: "一碗济州风味",
+        menuMore: "查看完整菜单",
+
+        storyLabel: "我们的故事",
+        storyTitle: "济州的味道，<br>以最济州的方式",
+
+        momentLabel: "济州时光",
+
+        routeLabel: "济州路线",
+        routeTitle: "穿过汉拿山的风，<br>遇见济州的味道",
+
+        locationLabel: "位置",
+        locationTitle: "济州旅行的开始，<br>就在 1100 GOJI",
+
+        closingTitle: "在济州遇见的<br>温暖一餐",
+
+        footer: "JEJU · KOREA"
     },
 
+
     ja: {
-        htmlLang: "ja"
+        menu: "メニュー",
+        story: "ストーリー",
+        location: "アクセス",
+
+        heroTitle: "済州の味を楽しむ",
+        heroDesc: "漢拏山の風と、済州豚の深い旨み",
+
+        menuLabel: "済州 MENU",
+        menuTitle: "済州を味わう一杯",
+        menuMore: "メニューを見る",
+
+        storyLabel: "OUR STORY",
+        storyTitle: "済州の味を、<br>もっと済州らしく",
+
+        momentLabel: "JEJU MOMENT",
+
+        routeLabel: "JEJU ROUTE",
+        routeTitle: "漢拏山の風を越えて、<br>済州の味に出会う",
+
+        locationLabel: "LOCATION",
+        locationTitle: "済州旅行のはじまり、<br>1100 GOJIから",
+
+        closingTitle: "済州で出会う<br>あたたかな一食",
+
+        footer: "JEJU · KOREA"
     }
 
 };
