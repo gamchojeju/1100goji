@@ -224,6 +224,10 @@ menu5Desc: "제주 고사리의 깊은 풍미와 진한 육수가 어우러진 �
 menu6Name: "돼지국밥",
 menu6En: "PORK SOUP RICE",
 menu6Desc: "든든하게 즐기는 제주식 돼지국밥",
+
+        menu7Name: "돔베고기",
+menu7En: "DOMBE GOGI",
+menu7Desc: "제주식으로 즐기는 담백하고 촉촉한 돔베고기",
         
 
 
@@ -281,6 +285,10 @@ menu5Desc: "A hearty bowl combining the deep flavor of Jeju bracken and rich bro
 menu6Name: "PORK SOUP RICE",
 menu6En: "PORK SOUP RICE",
 menu6Desc: "A hearty Jeju-style pork soup served with rice",
+
+        menu7Name: "DOMBE GOGI",
+menu7En: "JEJU-STYLE BOILED PORK",
+menu7Desc: "Tender and juicy Jeju-style boiled pork",
         
 
         storyLabel: "OUR STORY",
@@ -337,6 +345,10 @@ menu6Name: "猪肉汤饭",
 menu6En: "PORK SOUP RICE",
 menu6Desc: "饱腹又温暖的济州风味猪肉汤饭",
 
+        menu7Name: "济州岛白切猪肉",
+menu7En: "济州风味白切猪肉",
+menu7Desc: "济州风味的嫩滑多汁水煮猪肉",
+
         storyLabel: "我们的故事",
         storyTitle: "济州的味道，<br>以最济州的方式",
 
@@ -390,6 +402,10 @@ menu5Desc: "済州ワラビの深い風味と濃厚なスープが溶け合う�
 menu6Name: "豚肉クッパ",
 menu6En: "PORK SOUP RICE",
 menu6Desc: "食べ応えのある済州スタイルの豚肉クッパ",
+
+        menu7Name: "トンベコギ",
+menu7En: "済州式ゆで豚",
+menu7Desc: "済州島ならではの、やわらかくジューシーなゆで豚",
 
         storyLabel: "OUR STORY",
         storyTitle: "済州の味を、<br>もっと済州らしく",
