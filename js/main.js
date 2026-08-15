@@ -201,9 +201,13 @@ const translations = {
         menuTitle: "제주를 담은 한 그릇",
         menuMore: "전체 메뉴 보기",
 
-        menu1Name: "고기국수",
+       menu1Name: "고기국수",
 menu1En: "JEJU NOODLE",
 menu1Desc: "제주 돼지고기의 깊은 맛과 따뜻한 육수",
+
+menu2Name: "멸고국수",
+menu2En: "ANCHOVY PORK NOODLE",
+menu2Desc: "멸치육수와 제주 돼지고기가 어우러진 깊은 맛",
 
         storyLabel: "OUR STORY",
         storyTitle: "제주의 맛을,<br>가장 제주답게",
@@ -239,6 +243,10 @@ menu1Desc: "제주 돼지고기의 깊은 맛과 따뜻한 육수",
 menu1En: "JEJU NOODLE",
 menu1Desc: "A warm bowl of noodles with the rich flavor of Jeju pork",
 
+        menu2Name: "ANCHOVY PORK NOODLES",
+menu2En: "ANCHOVY PORK NOODLE",
+menu2Desc: "A rich broth combining anchovy stock and Jeju pork",
+
         storyLabel: "OUR STORY",
         storyTitle: "The Taste of Jeju,<br>Just as Jeju Intended",
 
@@ -273,6 +281,10 @@ menu1Desc: "A warm bowl of noodles with the rich flavor of Jeju pork",
 menu1En: "JEJU NOODLE",
 menu1Desc: "一碗温暖的面汤，融入济州猪肉浓郁的鲜香",
 
+menu2Name: "鳀鱼猪肉面",
+menu2En: "ANCHOVY PORK NOODLE",
+menu2Desc: "鳀鱼高汤与济州猪肉融合的浓郁风味",
+
         storyLabel: "我们的故事",
         storyTitle: "济州的味道，<br>以最济州的方式",
 
@@ -306,6 +318,10 @@ menu1Desc: "一碗温暖的面汤，融入济州猪肉浓郁的鲜香",
         menu1Name: "済州ポークヌードル",
 menu1En: "JEJU NOODLE",
 menu1Desc: "済州豚の旨みを味わえる、あたたかな一杯",
+
+        menu2Name: "いりこ豚肉麺",
+menu2En: "ANCHOVY PORK NOODLE",
+menu2Desc: "煮干しだしと済州豚が織りなす深い味わい",
 
         storyLabel: "OUR STORY",
         storyTitle: "済州の味を、<br>もっと済州らしく",
