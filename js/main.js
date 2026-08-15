@@ -246,6 +246,8 @@ momentText: "한라산 아래에서 만나는<br>따뜻한 한 그릇.<br><br>11
 
         routeLabel: "JEJU ROUTE",
         routeTitle: "한라산의 바람을 지나,<br>제주의 맛을 만나다",
+routeStart: "HALLASAN",
+routeEnd: "JEJU MEMORY",
 
         locationLabel: "LOCATION",
         locationTitle: "제주 여행의 시작,<br>1100 GOJI에서",
@@ -314,6 +316,8 @@ momentText: "A warm bowl waiting for you<br>beneath Hallasan.<br><br>A meal at 1
 
         routeLabel: "JEJU ROUTE",
         routeTitle: "Beyond the Breeze of Hallasan,<br>Discover the Taste of Jeju",
+        routeStart: "HALLASAN",
+routeEnd: "JEJU MEMORY",
 
         locationLabel: "LOCATION",
         locationTitle: "Start Your Jeju Journey<br>at 1100 GOJI",
@@ -381,6 +385,8 @@ momentText: "在汉拿山脚下享用<br>温暖的一碗美味。<br><br>1100 GO
 
         routeLabel: "济州路线",
         routeTitle: "穿过汉拿山的风，<br>遇见济州的味道",
+        routeStart: "汉拿山",
+routeEnd: "JEJU MEMORY",
 
         locationLabel: "位置",
         locationTitle: "济州旅行的开始，<br>就在 1100 GOJI",
@@ -448,6 +454,8 @@ storyText: "漢拏山のふもとで、<br><br>済州の時間を感じながら
 
         routeLabel: "JEJU ROUTE",
         routeTitle: "漢拏山の風を越えて、<br>済州の味に出会う",
+        routeStart: "漢拏山",
+routeEnd: "JEJU MEMORY",
 
         locationLabel: "LOCATION",
         locationTitle: "済州旅行のはじまり、<br>1100 GOJIから",
