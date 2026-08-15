@@ -238,9 +238,7 @@ storyText: "한라산 아래,<br><br>제주의 시간을 담아<br>따뜻한 한
 
 
         
-        storyLabel: "OUR STORY",
-        storyTitle: "제주의 맛을,<br>가장 제주답게",
-
+        
         momentLabel: "JEJU MOMENT",
 
         routeLabel: "JEJU ROUTE",
