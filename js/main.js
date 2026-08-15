@@ -221,6 +221,11 @@ menu5Name: "고사리육개장",
 menu5En: "FERN SOUP",
 menu5Desc: "제주 고사리의 깊은 풍미와 진한 육수가 어우러진 한 그릇",
 
+menu6Name: "돼지국밥",
+menu6En: "PORK SOUP RICE",
+menu6Desc: "든든하게 즐기는 제주식 돼지국밥",
+        
+
 
         
         storyLabel: "OUR STORY",
@@ -273,6 +278,9 @@ menu5Name: "FERN SOUP",
 menu5En: "FERN SOUP",
 menu5Desc: "A hearty bowl combining the deep flavor of Jeju bracken and rich broth",
 
+menu6Name: "PORK SOUP RICE",
+menu6En: "PORK SOUP RICE",
+menu6Desc: "A hearty Jeju-style pork soup served with rice",
         
 
         storyLabel: "OUR STORY",
@@ -325,6 +333,10 @@ menu5Name: "蕨菜牛肉汤",
 menu5En: "FERN SOUP",
 menu5Desc: "济州蕨菜的浓郁风味与醇厚汤汁融合的一碗暖汤",
 
+menu6Name: "猪肉汤饭",
+menu6En: "PORK SOUP RICE",
+menu6Desc: "饱腹又温暖的济州风味猪肉汤饭",
+
         storyLabel: "我们的故事",
         storyTitle: "济州的味道，<br>以最济州的方式",
 
@@ -374,6 +386,10 @@ menu4Desc: "あたたかいご飯と一緒に味わう、やわらかな済州�
 menu5Name: "ワラビユッケジャン",
 menu5En: "FERN SOUP",
 menu5Desc: "済州ワラビの深い風味と濃厚なスープが溶け合う一杯",
+
+menu6Name: "豚肉クッパ",
+menu6En: "PORK SOUP RICE",
+menu6Desc: "食べ応えのある済州スタイルの豚肉クッパ",
 
         storyLabel: "OUR STORY",
         storyTitle: "済州の味を、<br>もっと済州らしく",
