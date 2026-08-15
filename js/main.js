@@ -228,6 +228,12 @@ menu6Desc: "든든하게 즐기는 제주식 돼지국밥",
         menu7Name: "돔베고기",
 menu7En: "DOMBE GOGI",
 menu7Desc: "제주식으로 즐기는 담백하고 촉촉한 돔베고기",
+
+        storyLabel: "JEJU STORY",
+
+storyTitle: "1100m의 바람,<br>제주의 시간을 담다",
+
+storyText: "한라산 아래,<br><br>제주의 시간을 담아<br>따뜻한 한 그릇을 준비합니다.<br><br>여행의 하루가<br>오래 기억될 수 있도록.",
         
 
 
@@ -289,6 +295,12 @@ menu6Desc: "A hearty Jeju-style pork soup served with rice",
         menu7Name: "DOMBE GOGI",
 menu7En: "JEJU-STYLE BOILED PORK",
 menu7Desc: "Tender and juicy Jeju-style boiled pork",
+
+        storyLabel: "JEJU STORY",
+
+storyTitle: "Embracing the winds of 1,100m,<br>capturing the essence of Jeju",
+
+storyText: "Beneath Hallasan,<br><br>we prepare a warm bowl<br>filled with the spirit of Jeju.<br><br>So that each day of your journey<br>will be remembered for a long time.",
         
 
         storyLabel: "OUR STORY",
@@ -349,6 +361,12 @@ menu6Desc: "饱腹又温暖的济州风味猪肉汤饭",
 menu7En: "济州风味白切猪肉",
 menu7Desc: "济州风味的嫩滑多汁水煮猪肉",
 
+        storyLabel: "JEJU STORY",
+
+storyTitle: "1100米的风，<br>盛满济州的时光",
+
+storyText: "在汉拿山脚下，<br><br>我们将济州的时光融入其中，<br>准备一碗温暖的美味。<br><br>愿旅途中的每一天<br>都成为久久难忘的回忆。",
+
         storyLabel: "我们的故事",
         storyTitle: "济州的味道，<br>以最济州的方式",
 
@@ -406,6 +424,12 @@ menu6Desc: "食べ応えのある済州スタイルの豚肉クッパ",
         menu7Name: "トンベコギ",
 menu7En: "済州式ゆで豚",
 menu7Desc: "済州島ならではの、やわらかくジューシーなゆで豚",
+
+        storyLabel: "JEJU STORY",
+
+storyTitle: "標高1,100mの風、<br>済州の時間を込めて",
+
+storyText: "漢拏山のふもとで、<br><br>済州の時間を感じながら<br>心あたたまる一杯を用意しています。<br><br>旅の一日が<br>いつまでも心に残りますように。",
 
         storyLabel: "OUR STORY",
         storyTitle: "済州の味を、<br>もっと済州らしく",
