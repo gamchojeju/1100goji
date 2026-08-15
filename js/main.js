@@ -217,6 +217,12 @@ menu3Desc: "제주의 맛을 산뜻하게 즐기는 비빔국수",
 menu4En: "BOILED PORK SET",
 menu4Desc: "따뜻한 밥과 함께 즐기는 부드러운 제주 돼지고기",
 
+menu5Name: "고사리육개장",
+menu5En: "FERN SOUP",
+menu5Desc: "제주 고사리의 깊은 풍미와 진한 육수가 어우러진 한 그릇",
+
+
+        
         storyLabel: "OUR STORY",
         storyTitle: "제주의 맛을,<br>가장 제주답게",
 
@@ -262,6 +268,12 @@ menu3Desc: "Fresh and flavorful noodles with a taste of Jeju",
         menu4Name: "BOILED PORK SET",
 menu4En: "BOILED PORK SET",
 menu4Desc: "Tender Jeju pork served with warm rice",
+
+menu5Name: "FERN SOUP",
+menu5En: "FERN SOUP",
+menu5Desc: "A hearty bowl combining the deep flavor of Jeju bracken and rich broth",
+
+        
 
         storyLabel: "OUR STORY",
         storyTitle: "The Taste of Jeju,<br>Just as Jeju Intended",
@@ -309,6 +321,10 @@ menu3Desc: "清爽地享受济州风味的拌面",
 menu4En: "BOILED PORK SET",
 menu4Desc: "搭配热腾腾米饭享用的嫩滑济州猪肉",
 
+menu5Name: "蕨菜牛肉汤",
+menu5En: "FERN SOUP",
+menu5Desc: "济州蕨菜的浓郁风味与醇厚汤汁融合的一碗暖汤",
+
         storyLabel: "我们的故事",
         storyTitle: "济州的味道，<br>以最济州的方式",
 
@@ -351,9 +367,13 @@ menu2Desc: "煮干しだしと済州豚が織りなす深い味わい",
 menu3En: "SPICY NOODLE",
 menu3Desc: "済州の味をさっぱり楽しめるビビン麺",
 
-        menu4Name: "ゆで豚定食",
+       menu4Name: "ゆで豚定食",
 menu4En: "BOILED PORK SET",
 menu4Desc: "あたたかいご飯と一緒に味わう、やわらかな済州豚",
+
+menu5Name: "ワラビユッケジャン",
+menu5En: "FERN SOUP",
+menu5Desc: "済州ワラビの深い風味と濃厚なスープが溶け合う一杯",
 
         storyLabel: "OUR STORY",
         storyTitle: "済州の味を、<br>もっと済州らしく",
