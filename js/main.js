@@ -213,6 +213,10 @@ menu2Desc: "멸치육수와 제주 돼지고기가 어우러진 깊은 맛",
 menu3En: "SPICY NOODLE",
 menu3Desc: "제주의 맛을 산뜻하게 즐기는 비빔국수",
 
+        menu4Name: "수육백반",
+menu4En: "BOILED PORK SET",
+menu4Desc: "따뜻한 밥과 함께 즐기는 부드러운 제주 돼지고기",
+
         storyLabel: "OUR STORY",
         storyTitle: "제주의 맛을,<br>가장 제주답게",
 
@@ -254,6 +258,10 @@ menu2Desc: "A rich broth combining anchovy stock and Jeju pork",
         menu3Name: "SPICY NOODLES",
 menu3En: "SPICY NOODLE",
 menu3Desc: "Fresh and flavorful noodles with a taste of Jeju",
+
+        menu4Name: "BOILED PORK SET",
+menu4En: "BOILED PORK SET",
+menu4Desc: "Tender Jeju pork served with warm rice",
 
         storyLabel: "OUR STORY",
         storyTitle: "The Taste of Jeju,<br>Just as Jeju Intended",
@@ -297,6 +305,10 @@ menu2Desc: "鳀鱼高汤与济州猪肉融合的浓郁风味",
 menu3En: "SPICY NOODLE",
 menu3Desc: "清爽地享受济州风味的拌面",
 
+        menu4Name: "白切猪肉套餐",
+menu4En: "BOILED PORK SET",
+menu4Desc: "搭配热腾腾米饭享用的嫩滑济州猪肉",
+
         storyLabel: "我们的故事",
         storyTitle: "济州的味道，<br>以最济州的方式",
 
@@ -338,6 +350,10 @@ menu2Desc: "煮干しだしと済州豚が織りなす深い味わい",
         menu3Name: "ビビン麺",
 menu3En: "SPICY NOODLE",
 menu3Desc: "済州の味をさっぱり楽しめるビビン麺",
+
+        menu4Name: "ゆで豚定食",
+menu4En: "BOILED PORK SET",
+menu4Desc: "あたたかいご飯と一緒に味わう、やわらかな済州豚",
 
         storyLabel: "OUR STORY",
         storyTitle: "済州の味を、<br>もっと済州らしく",
