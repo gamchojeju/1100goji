@@ -240,6 +240,9 @@ storyText: "한라산 아래,<br><br>제주의 시간을 담아<br>따뜻한 한
         
         
         momentLabel: "JEJU MOMENT",
+        momentTitle: "제주를 걷던 하루,<br>잠시 쉬어가는 시간",
+
+momentText: "한라산 아래에서 만나는<br>따뜻한 한 그릇.<br><br>1100 GOJI의 한 끼는<br>여행을 오래 기억하게 합니다.",
 
         routeLabel: "JEJU ROUTE",
         routeTitle: "한라산의 바람을 지나,<br>제주의 맛을 만나다",
@@ -305,6 +308,9 @@ storyText: "Beneath Hallasan,<br><br>we prepare a warm bowl<br>filled with the s
         storyTitle: "The Taste of Jeju,<br>Just as Jeju Intended",
 
         momentLabel: "JEJU MOMENT",
+        momentTitle: "A day walking through Jeju,<br>a moment to pause and rest",
+
+momentText: "A warm bowl waiting for you<br>beneath Hallasan.<br><br>A meal at 1100 GOJI<br>turns your journey into a lasting memory.",
 
         routeLabel: "JEJU ROUTE",
         routeTitle: "Beyond the Breeze of Hallasan,<br>Discover the Taste of Jeju",
@@ -369,6 +375,9 @@ storyText: "在汉拿山脚下，<br><br>我们将济州的时光融入其中，
         storyTitle: "济州的味道，<br>以最济州的方式",
 
         momentLabel: "济州时光",
+        momentTitle: "漫步济州的一天，<br>停下来歇一会儿",
+
+momentText: "在汉拿山脚下享用<br>温暖的一碗美味。<br><br>1100 GOJI的一餐<br>让旅途成为久久难忘的回忆。",
 
         routeLabel: "济州路线",
         routeTitle: "穿过汉拿山的风，<br>遇见济州的味道",
@@ -424,6 +433,9 @@ menu7En: "済州式ゆで豚",
 menu7Desc: "済州島ならではの、やわらかくジューシーなゆで豚",
 
         storyLabel: "JEJU STORY",
+        momentTitle: "済州を歩いた一日、<br>ひと休みする時間",
+
+momentText: "漢拏山のふもとで出会う<br>心あたたまる一杯。<br><br>1100 GOJIでのひとときが<br>旅の思い出をより深いものにします。",
 
 storyTitle: "標高1,100mの風、<br>済州の時間を込めて",
 
