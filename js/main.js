@@ -251,6 +251,23 @@ routeEnd: "JEJU MEMORY",
 
         locationLabel: "LOCATION",
         locationTitle: "제주 여행의 시작,<br>1100 GOJI에서",
+        locationDesc: "한라산 여행의 시작과 끝에서<br>따뜻한 제주를 만나보세요.",
+
+locationAddress: "📍 제주 제주시 수덕로 9",
+
+locationAirport: "✈ 제주공항에서 차량 약 15분",
+
+locationParking: "🚗 주차 가능",
+
+locationHours: "🕒 영업시간 11:00 ~ 21:00<br>Last order 20:20",
+
+locationPhone: "☎ 0507-1363-1109",
+
+locationKakao: "카카오맵 길찾기",
+
+locationNaver: "네이버지도 길찾기",
+
+        
 
         closingTitle: "제주에서 만난<br>따뜻한 한 끼",
 
@@ -321,6 +338,23 @@ routeEnd: "JEJU MEMORY",
 
         locationLabel: "LOCATION",
         locationTitle: "Start Your Jeju Journey<br>at 1100 GOJI",
+        locationDesc: "At the beginning and end of your Hallasan journey,<br>discover the warmth of Jeju.",
+
+locationAddress: "📍 9 Sudeok-ro, Jeju-si, Jeju",
+
+locationAirport: "✈ About 15 minutes by car from Jeju Airport",
+
+locationParking: "🚗 Parking available",
+
+locationHours: "🕒 Hours 11:00 ~ 21:00<br>Last order 20:20",
+
+locationPhone: "☎ 0507-1363-1109",
+
+locationKakao: "KakaoMap Directions",
+
+locationNaver: "Naver Map Directions",
+
+        
 
         closingTitle: "A Warm Meal<br>Found in Jeju",
 
@@ -390,6 +424,23 @@ routeEnd: "JEJU MEMORY",
 
         locationLabel: "位置",
         locationTitle: "济州旅行的开始，<br>就在 1100 GOJI",
+        locationDesc: "从汉拿山旅程的开始到结束，<br>感受温暖的济州。",
+
+locationAddress: "📍 济州市 水德路 9",
+
+locationAirport: "✈ 从济州机场驾车约15分钟",
+
+locationParking: "🚗 提供停车",
+
+locationHours: "🕒 营业时间 11:00 ~ 21:00<br>Last order 20:20",
+
+locationPhone: "☎ 0507-1363-1109",
+
+locationKakao: "KakaoMap 路线",
+
+locationNaver: "Naver Map 路线",
+
+        
 
         closingTitle: "在济州遇见的<br>温暖一餐",
 
@@ -459,6 +510,22 @@ routeEnd: "JEJU MEMORY",
 
         locationLabel: "LOCATION",
         locationTitle: "済州旅行のはじまり、<br>1100 GOJIから",
+
+        locationDesc: "漢拏山の旅の始まりと終わりに、<br>あたたかな済州をお楽しみください。",
+
+locationAddress: "📍 済州市 スドク路 9",
+
+locationAirport: "✈ 済州空港から車で約15分",
+
+locationParking: "🚗 駐車可能",
+
+locationHours: "🕒 営業時間 11:00 ~ 21:00<br>Last order 20:20",
+
+locationPhone: "☎ 0507-1363-1109",
+
+locationKakao: "KakaoMap ルート検索",
+
+locationNaver: "Naver Map ルート検索",
 
         closingTitle: "済州で出会う<br>あたたかな一食",
 
