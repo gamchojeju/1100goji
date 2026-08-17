@@ -270,6 +270,7 @@ locationNaver: "네이버지도 길찾기",
         
 
         closingTitle: "제주에서 만난<br>따뜻한 한 끼",
+        closingText: "제주를 맛보다.<br>1100 GOJI.",
 
         footer: "JEJU · KOREA"
     },
@@ -357,6 +358,7 @@ locationNaver: "Naver Map Directions",
         
 
         closingTitle: "A Warm Meal<br>Found in Jeju",
+        closingText: "Taste Jeju.<br>1100 GOJI.",
 
         footer: "JEJU · KOREA"
     },
@@ -443,6 +445,7 @@ locationNaver: "Naver Map 路线",
         
 
         closingTitle: "在济州遇见的<br>温暖一餐",
+        closingText: "品味济州。<br>1100 GOJI.",
 
         footer: "JEJU · KOREA"
     },
@@ -528,6 +531,7 @@ locationKakao: "KakaoMap ルート検索",
 locationNaver: "Naver Map ルート検索",
 
         closingTitle: "済州で出会う<br>あたたかな一食",
+        closingText: "済州を味わう。<br>1100 GOJI.",
 
         footer: "JEJU · KOREA"
     }
