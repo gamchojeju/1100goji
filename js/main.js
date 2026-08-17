@@ -421,9 +421,7 @@ storyTitle: "1100米的风，<br>盛满济州的时光",
 
 storyText: "在汉拿山脚下，<br><br>我们将济州的时光融入其中，<br>准备一碗温暖的美味。<br><br>愿旅途中的每一天<br>都成为久久难忘的回忆。",
 
-        storyLabel: "我们的故事",
-        storyTitle: "济州的味道，<br>以最济州的方式",
-
+        
         menuCard1Title: "汉拿山脚下的一碗美味",
 menuCard2Title: "纯粹的济州风味",
 menuCard3Title: "融入汉拿山的深厚风味",
@@ -516,8 +514,7 @@ storyTitle: "標高1,100mの風、<br>済州の時間を込めて",
 
 storyText: "漢拏山のふもとで、<br><br>済州の時間を感じながら<br>心あたたまる一杯を用意しています。<br><br>旅の一日が<br>いつまでも心に残りますように。",
 
-        storyLabel: "OUR STORY",
-        storyTitle: "済州の味を、<br>もっと済州らしく",
+        
 
         menuCard1Title: "漢拏山のふもとの一杯",
 menuCard2Title: "済州の素朴な味わい",
