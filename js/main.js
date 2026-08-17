@@ -330,8 +330,7 @@ storyTitle: "Embracing the winds of 1,100m,<br>capturing the essence of Jeju",
 storyText: "Beneath Hallasan,<br><br>we prepare a warm bowl<br>filled with the spirit of Jeju.<br><br>So that each day of your journey<br>will be remembered for a long time.",
         
 
-        storyLabel: "OUR STORY",
-        storyTitle: "The Taste of Jeju,<br>Just as Jeju Intended",
+        
 
         menuCard1Title: "A Bowl Beneath Hallasan",
 menuCard2Title: "The Pure Taste of Jeju",
