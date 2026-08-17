@@ -559,43 +559,7 @@ locationNaver: "Naver Map ルート検索",
 };
 
 
-function setLanguage(lang){
 
-    if(!translations[lang]) return;
-
-    document.documentElement.lang =
-        translations[lang].htmlLang;
-
-
-    languageButtons.forEach(button => {
-
-        button.classList.toggle(
-            "active",
-            button.dataset.lang === lang
-        );
-
-    });
-
-
-    localStorage.setItem(
-        "1100goji-language",
-        lang
-    );
-
-}
-
-
-languageButtons.forEach(button => {
-
-    button.addEventListener("click", () => {
-
-        setLanguage(
-            button.dataset.lang
-        );
-
-    });
-
-});
 
 
 /* =========================
