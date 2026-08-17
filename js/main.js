@@ -235,6 +235,10 @@ menu7Desc: "제주식으로 즐기는 담백하고 촉촉한 돔베고기",
 storyTitle: "1100m의 바람,<br>제주의 시간을 담다",
 
 storyText: "한라산 아래,<br><br>제주의 시간을 담아<br>따뜻한 한 그릇을 준비합니다.<br><br>여행의 하루가<br>오래 기억될 수 있도록.",
+
+        menuCard1Title: "한라산 아래의 한 그릇",
+menuCard2Title: "제주의 담백함을 그대로",
+menuCard3Title: "한라산의 깊은 맛을 담다",
         
 
 
@@ -329,6 +333,10 @@ storyText: "Beneath Hallasan,<br><br>we prepare a warm bowl<br>filled with the s
         storyLabel: "OUR STORY",
         storyTitle: "The Taste of Jeju,<br>Just as Jeju Intended",
 
+        menuCard1Title: "A Bowl Beneath Hallasan",
+menuCard2Title: "The Pure Taste of Jeju",
+menuCard3Title: "The Deep Flavor of Hallasan",
+
         momentLabel: "JEJU MOMENT",
         momentTitle: "A day walking through Jeju,<br>a moment to pause and rest",
 
@@ -416,6 +424,10 @@ storyText: "在汉拿山脚下，<br><br>我们将济州的时光融入其中，
 
         storyLabel: "我们的故事",
         storyTitle: "济州的味道，<br>以最济州的方式",
+
+        menuCard1Title: "汉拿山脚下的一碗美味",
+menuCard2Title: "纯粹的济州风味",
+menuCard3Title: "融入汉拿山的深厚风味",
 
         momentLabel: "济州时光",
         momentTitle: "漫步济州的一天，<br>停下来歇一会儿",
@@ -507,6 +519,10 @@ storyText: "漢拏山のふもとで、<br><br>済州の時間を感じながら
 
         storyLabel: "OUR STORY",
         storyTitle: "済州の味を、<br>もっと済州らしく",
+
+        menuCard1Title: "漢拏山のふもとの一杯",
+menuCard2Title: "済州の素朴な味わい",
+menuCard3Title: "漢拏山の深い味わいを込めて",
 
         momentLabel: "JEJU MOMENT",
 
