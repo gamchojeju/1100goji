@@ -5,36 +5,6 @@
 
 
 
-// HEADER SCROLL EFFECT
-
-const header = document.querySelector(".header");
-
-
-window.addEventListener("scroll",()=>{
-
-
-    if(window.scrollY > 80){
-
-        header.style.background =
-        "rgba(47,93,80,0.92)";
-
-        header.style.backdropFilter =
-        "blur(10px)";
-
-    }else{
-
-        header.style.background =
-        "transparent";
-
-    }
-
-
-});
-
-
-
-
-
 // SCROLL FADE ANIMATION
 
 
