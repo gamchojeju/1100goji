@@ -200,6 +200,9 @@ menu6Desc: "든든하게 즐기는 제주식 돼지국밥",
 menu7En: "DOMBE GOGI",
 menu7Desc: "제주식으로 즐기는 담백하고 촉촉한 돔베고기",
 
+        menu8Name: "순대한판",
+        menu9Name: "돔베 / 순대 반반",
+
         storyLabel: "JEJU STORY",
 
 storyTitle: "1100m의 바람,<br>제주의 시간을 담다",
@@ -293,6 +296,9 @@ menu6Desc: "A hearty Jeju-style pork soup served with rice",
 menu7En: "JEJU-STYLE BOILED PORK",
 menu7Desc: "Tender and juicy Jeju-style boiled pork",
 
+        menu8Name: "Sundae Platter",
+        menu9Name: "Dombe Pork & Sundae Half and Half",
+
         storyLabel: "JEJU STORY",
 
 storyTitle: "Embracing the winds of 1,100m,<br>capturing the essence of Jeju",
@@ -385,6 +391,9 @@ menu6Desc: "饱腹又温暖的济州风味猪肉汤饭",
 menu7En: "济州风味白切猪肉",
 menu7Desc: "济州风味的嫩滑多汁水煮猪肉",
 
+        menu8Name: "香肠拼盘",
+        menu9Name: "济州白切猪肉与香肠拼盘",
+
         storyLabel: "JEJU STORY",
 
 storyTitle: "1100米的风，<br>盛满济州的时光",
@@ -474,6 +483,9 @@ menu6Desc: "食べ応えのある済州スタイルの豚肉クッパ",
         menu7Name: "トンベコギ",
 menu7En: "済州式ゆで豚",
 menu7Desc: "済州島ならではの、やわらかくジューシーなゆで豚",
+
+        menu8Name: "スンデ盛り合わせ",
+        menu9Name: "トンベコギ＆スンデ ハーフ＆ハーフ",
 
         storyLabel: "JEJU STORY",
         momentTitle: "済州を歩いた一日、<br>ひと休みする時間",
