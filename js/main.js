@@ -170,7 +170,7 @@ const translations = {
         menuLabel: "JEJU MENU",
         menuTitle: "제주를 담은 한 그릇",
         menuMore: "전체 메뉴 보기",
-        allMenuTitle: "제주를 담은<br>한 상의 맛",
+        allMenuTitle: "제주를 담은<br>일곱 가지 한 그릇",
 
        menu1Name: "고기국수",
 menu1En: "JEJU NOODLE",
