@@ -1748,41 +1748,6 @@ MENU IMAGE EFFECT
     white-space:nowrap;
 }
 
-.all-menu-text-image{
-    min-height:220px;
-    padding:35px 25px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background:linear-gradient(135deg,#f7f3ee,#e8eee9);
-    color:var(--green);
-}
-
-.all-menu-text-image span{
-    font-size:11px;
-    letter-spacing:3px;
-    margin-bottom:12px;
-}
-
-.all-menu-text-image strong{
-    font-size:28px;
-    line-height:1.35;
-}
-
-@media(max-width:768px){
-    .all-menu-text-image{
-        min-height:180px;
-    }
-    .all-menu-text-image strong{
-        font-size:24px;
-    }
-    .menu-price{
-        font-size:16px;
-    }
-}
-
 .all-menu-item{
     overflow:hidden;
     padding:0;
