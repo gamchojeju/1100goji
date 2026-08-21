@@ -170,7 +170,7 @@ const translations = {
         menuLabel: "JEJU MENU",
         menuTitle: "제주를 담은 한 그릇",
         menuMore: "전체 메뉴 보기",
-        allMenuTitle: "제주를 담은<br>일곱 가지 한 그릇",
+        allMenuTitle: "제주를 담은<br>한 상의 맛",
 
        menu1Name: "고기국수",
 menu1En: "JEJU NOODLE",
@@ -201,7 +201,9 @@ menu7En: "DOMBE GOGI",
 menu7Desc: "제주식으로 즐기는 담백하고 촉촉한 돔베고기",
 
         menu8Name: "순대한판",
+        menu8Desc: "제주식 순대의 담백한 맛을 한 판 가득 즐기는 메뉴",
         menu9Name: "돔베 / 순대 반반",
+        menu9Desc: "촉촉한 돔베고기와 담백한 순대를 함께 즐기는 반반 메뉴",
 
         storyLabel: "JEJU STORY",
 
@@ -297,7 +299,9 @@ menu7En: "JEJU-STYLE BOILED PORK",
 menu7Desc: "Tender and juicy Jeju-style boiled pork",
 
         menu8Name: "Sundae Platter",
+        menu8Desc: "A generous platter of Jeju-style sundae with a clean, savory taste",
         menu9Name: "Dombe Pork & Sundae Half and Half",
+        menu9Desc: "A half-and-half platter of tender dombe pork and savory sundae",
 
         storyLabel: "JEJU STORY",
 
@@ -392,7 +396,9 @@ menu7En: "济州风味白切猪肉",
 menu7Desc: "济州风味的嫩滑多汁水煮猪肉",
 
         menu8Name: "香肠拼盘",
+        menu8Desc: "满满一盘享受济州风味香肠的清淡鲜美",
         menu9Name: "济州白切猪肉与香肠拼盘",
+        menu9Desc: "嫩滑济州白切猪肉与香肠的双拼组合",
 
         storyLabel: "JEJU STORY",
 
@@ -485,7 +491,9 @@ menu7En: "済州式ゆで豚",
 menu7Desc: "済州島ならではの、やわらかくジューシーなゆで豚",
 
         menu8Name: "スンデ盛り合わせ",
+        menu8Desc: "済州式スンデをたっぷり味わえる、素朴でやさしい一皿",
         menu9Name: "トンベコギ＆スンデ ハーフ＆ハーフ",
+        menu9Desc: "やわらかなトンベコギとスンデを一度に楽しめるハーフ＆ハーフ",
 
         storyLabel: "JEJU STORY",
         momentTitle: "済州を歩いた一日、<br>ひと休みする時間",
